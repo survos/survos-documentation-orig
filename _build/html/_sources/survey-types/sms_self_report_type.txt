@@ -26,7 +26,16 @@ Go through each screen of the Wave Form or Wizard for a sms_self_report Wave
 Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These are the fields in tab basic
+.. _tab_url: basic http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_self_report#basic
+
+These are the fields in tab basic.   This is what it should look like: basic_.
+
+
+.. image:: http://dummyimage.com/600x400/000/fff&text=sms_self_report+Wave+Tab+basic
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form sms_self_report Wave Tab basic
 
 * Name
 * Code
@@ -37,7 +46,16 @@ These are the fields in tab basic
 Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These are the fields in tab enrollment
+.. _tab_url: enrollment http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_self_report#enrollment
+
+These are the fields in tab enrollment.   This is what it should look like: enrollment_.
+
+
+.. image:: http://dummyimage.com/600x400/000/fff&text=sms_self_report+Wave+Tab+enrollment
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form sms_self_report Wave Tab enrollment
 
 * isAutoEnrollOnRegistration
 * is_notify_adminstrators
@@ -47,7 +65,16 @@ These are the fields in tab enrollment
 Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These are the fields in tab workflow
+.. _tab_url: workflow http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_self_report#workflow
+
+These are the fields in tab workflow.   This is what it should look like: workflow_.
+
+
+.. image:: http://dummyimage.com/600x400/000/fff&text=sms_self_report+Wave+Tab+workflow
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form sms_self_report Wave Tab workflow
 
 * isTracked
 * ExternalQueueNames
@@ -56,7 +83,16 @@ These are the fields in tab workflow
 Expiration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These are the fields in tab expiration
+.. _tab_url: expiration http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_self_report#expiration
+
+These are the fields in tab expiration.   This is what it should look like: expiration_.
+
+
+.. image:: http://dummyimage.com/600x400/000/fff&text=sms_self_report+Wave+Tab+expiration
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form sms_self_report Wave Tab expiration
 
 * survey_expiration
 * reminder_frequency
@@ -71,6 +107,15 @@ These are the fields in tab expiration
 Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These are the fields in tab additional
+.. _tab_url: additional http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_self_report#additional
+
+These are the fields in tab additional.   This is what it should look like: additional_.
+
+
+.. image:: http://dummyimage.com/600x400/000/fff&text=sms_self_report+Wave+Tab+additional
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form sms_self_report Wave Tab additional
 
 

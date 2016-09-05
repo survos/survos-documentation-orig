@@ -26,7 +26,16 @@ Go through each screen of the Wave Form or Wizard for a mms_field Wave
 Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These are the fields in tab basic
+.. _tab_url: basic http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=mms_field#basic
+
+These are the fields in tab basic.   This is what it should look like: basic_.
+
+
+.. image:: http://dummyimage.com/600x400/000/fff&text=mms_field+Wave+Tab+basic
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form mms_field Wave Tab basic
 
 * Name
 * Code
@@ -37,7 +46,16 @@ These are the fields in tab basic
 Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These are the fields in tab enrollment
+.. _tab_url: enrollment http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=mms_field#enrollment
+
+These are the fields in tab enrollment.   This is what it should look like: enrollment_.
+
+
+.. image:: http://dummyimage.com/600x400/000/fff&text=mms_field+Wave+Tab+enrollment
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form mms_field Wave Tab enrollment
 
 * isAutoEnrollOnRegistration
 * is_notify_adminstrators
@@ -45,7 +63,16 @@ These are the fields in tab enrollment
 Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These are the fields in tab workflow
+.. _tab_url: workflow http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=mms_field#workflow
+
+These are the fields in tab workflow.   This is what it should look like: workflow_.
+
+
+.. image:: http://dummyimage.com/600x400/000/fff&text=mms_field+Wave+Tab+workflow
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form mms_field Wave Tab workflow
 
 * isTracked
 * ExternalQueueNames
