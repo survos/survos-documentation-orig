@@ -1,3 +1,5 @@
+... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+
 ..  _sms_single_type:
 
 sms_single: One-time SMS Survey
@@ -6,8 +8,8 @@ Welcome message, Phone verification code
 
 Basic Workflow
 -------------------------
-* Congigure Survey
-* Design Survey Question
+* Configure a One-time SMS Survey
+* Design Survey Questions
 * Preview with Dummy Data
 * Activate
 * Recruit
@@ -28,7 +30,7 @@ Basic
 
 .. _tab_url: basic http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic
 
-These are the fields in tab basic.   This is what it should look like: basic_.
+These are the fields in tab basic.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+basic
@@ -48,7 +50,7 @@ Enrollment
 
 .. _tab_url: enrollment http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment
 
-These are the fields in tab enrollment.   This is what it should look like: enrollment_.
+These are the fields in tab enrollment.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+enrollment
@@ -67,7 +69,7 @@ Workflow
 
 .. _tab_url: workflow http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow
 
-These are the fields in tab workflow.   This is what it should look like: workflow_.
+These are the fields in tab workflow.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+workflow
@@ -85,7 +87,7 @@ Expiration
 
 .. _tab_url: expiration http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#expiration
 
-These are the fields in tab expiration.   This is what it should look like: expiration_.
+These are the fields in tab expiration.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+expiration

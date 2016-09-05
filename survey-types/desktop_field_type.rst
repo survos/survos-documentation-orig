@@ -1,3 +1,5 @@
+... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+
 ..  _desktop_field_type:
 
 desktop_field: Desktop Field Tasks Survey
@@ -6,8 +8,8 @@ Tasks Without In-person Visit
 
 Basic Workflow
 -------------------------
-* Congigure Survey
-* Design Survey Question
+* Configure a Desktop Field Tasks Survey
+* Design Survey Questions
 * Preview with Dummy Data
 * Activate
 * Recruit
@@ -28,7 +30,7 @@ Basic
 
 .. _tab_url: basic http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#basic
 
-These are the fields in tab basic.   This is what it should look like: basic_.
+These are the fields in tab basic.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+basic
@@ -48,7 +50,7 @@ Enrollment
 
 .. _tab_url: enrollment http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#enrollment
 
-These are the fields in tab enrollment.   This is what it should look like: enrollment_.
+These are the fields in tab enrollment.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+enrollment
@@ -65,7 +67,7 @@ Workflow
 
 .. _tab_url: workflow http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#workflow
 
-These are the fields in tab workflow.   This is what it should look like: workflow_.
+These are the fields in tab workflow.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+workflow

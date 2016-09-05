@@ -1,3 +1,5 @@
+... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+
 ..  _url_list_type:
 
 url_list: List of image URLs Survey
@@ -6,8 +8,8 @@ url_list: List of image URLs Survey
 
 Basic Workflow
 -------------------------
-* Congigure Survey
-* Design Survey Question
+* Configure a List of image URLs Survey
+* Design Survey Questions
 * Preview with Dummy Data
 * Activate
 * Recruit
@@ -28,7 +30,7 @@ Basic
 
 .. _tab_url: basic http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=url_list#basic
 
-These are the fields in tab basic.   This is what it should look like: basic_.
+These are the fields in tab basic.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=url_list+Wave+Tab+basic
@@ -48,7 +50,7 @@ Enrollment
 
 .. _tab_url: enrollment http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=url_list#enrollment
 
-These are the fields in tab enrollment.   This is what it should look like: enrollment_.
+These are the fields in tab enrollment.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=url_list+Wave+Tab+enrollment
@@ -65,7 +67,7 @@ Workflow
 
 .. _tab_url: workflow http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=url_list#workflow
 
-These are the fields in tab workflow.   This is what it should look like: workflow_.
+These are the fields in tab workflow.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=url_list+Wave+Tab+workflow

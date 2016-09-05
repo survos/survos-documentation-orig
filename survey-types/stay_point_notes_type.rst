@@ -1,3 +1,5 @@
+... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+
 ..  _stay_point_notes_type:
 
 stay_point_notes: Map Notes Survey
@@ -6,8 +8,8 @@ Questions about an staypoint
 
 Basic Workflow
 -------------------------
-* Congigure Survey
-* Design Survey Question
+* Configure a Map Notes Survey
+* Design Survey Questions
 * Preview with Dummy Data
 * Activate
 * Recruit
@@ -28,7 +30,7 @@ Basic
 
 .. _tab_url: basic http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#basic
 
-These are the fields in tab basic.   This is what it should look like: basic_.
+These are the fields in tab basic.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+basic
@@ -48,7 +50,7 @@ Enrollment
 
 .. _tab_url: enrollment http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#enrollment
 
-These are the fields in tab enrollment.   This is what it should look like: enrollment_.
+These are the fields in tab enrollment.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+enrollment
@@ -65,7 +67,7 @@ Workflow
 
 .. _tab_url: workflow http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#workflow
 
-These are the fields in tab workflow.   This is what it should look like: workflow_.
+These are the fields in tab workflow.   This is what it should look like: tab_url_.
 
 
 .. image:: http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+workflow
