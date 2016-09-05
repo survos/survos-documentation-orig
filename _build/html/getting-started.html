@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>System Overview &mdash; Survos 3.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '3.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Survos 3.1 documentation" href="index.html" />
+    <link rel="next" title="Modules" href="modules.html" />
+    <link rel="prev" title="Overview" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modules.html" title="Modules"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Overview"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Survos 3.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="system-overview">
+<h1>System Overview<a class="headerlink" href="#system-overview" title="Permalink to this headline">¶</a></h1>
+<p>Survos is a set of components that allow researchers to collect data about study participants and/or data about &#8220;things&#8221;, such as places or photos.</p>
+<p>Each major system component, called a &#8220;module&#8221; can be run individually, they can also be combined.</p>
+<div class="section" id="terminology">
+<h2>Terminology<a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h2>
+<p>Here are some terms that are important to know.</p>
+<ul class="simple">
+<li><strong>Project</strong> :  The data, people and protocols of a research study.</li>
+<li><strong>Module</strong>: A collection of survey types that collect data in a similar way.  Because the types of data the system can collect is so varied, selectively installing modules allows the system to be</li>
+</ul>
+<dl class="docutils">
+<dt>navigated more easily.  Many projects only use one or two modules.</dt>
+<dd><ul class="first last simple">
+<li><em>Import</em>: Import data from external source (e.g. csv file, CartoDB)</li>
+</ul>
+</dd>
+</dl>
+<ul class="simple">
+<li><strong>Survey Type</strong>: A generic term describing a component of the Survos Platform that collects data.  If that data is personal (e.g. about a study participants), this is sometimes called an &#8220;intervention&#8221;.  If it&#8217;s about a place, it can be called a &#8220;field survey&#8221;.  It can also be called a &#8220;Turk Job&#8221; if the data is being collected through Amazon&#8217;s Mechanical Turk&#8221;.</li>
+<li><strong>Survey Instrument</strong> : a list of questions and answer options, tied to a how those questions will be deployed, such as via SMS or Turk or a Web Interview</li>
+<li><strong>Wave</strong> : Deployment of the survey questions.  It is the central object in the system, and is the configuration for who will answer the survey questions, when, how, how often, how much they&#8217;ll be paid, etc.  There are many types of jobs, and each type will have its own specific configuration, which will be described later in the document.</li>
+<li><strong>User (formerly Member)</strong>: Accounts associated with a project.  All users have an identifier that is unique with in the project, for study participants, this is sometimes referred to as a &#8220;Subject ID&#8221;, and except when testing, this identifier should not be personally identifiable.  There are various roles users have, such as &#8220;applicant&#8221;, &#8220;participant&#8221;, &#8220;turker&#8221; &#8220;researcher&#8221; and &#8220;participant&#8221;.</li>
+<li><strong>Assignment/Survey Response</strong>: The participant&#8217;s survey answers.</li>
+<li><strong>Data</strong>: Each project may contain its own database of places, images and other data.  Jobs that use data (e.g. visiting a list of places, looking at a list of photos) get their data from these tables.  Wave collect data (e.g. taking pictures) put their results here (so the results can be used by subsequent Surveys).</li>
+</ul>
+</div>
+<div class="section" id="data-collection-workflow">
+<h2>Data Collection Workflow<a class="headerlink" href="#data-collection-workflow" title="Permalink to this headline">¶</a></h2>
+<p>All data collection within a project works roughly the same way, and will be described in specific detail in each module.</p>
+<p># Within a module, decide <em>how</em> your questions will be delivered (e.g. SMS, Interview, Turk), and create a survey.
+# Design your questions within the survey, paying special attention to the question codes, types and possible responses.  The data collected will be available using these codes.
+# Define the specifics of your survey deployment, called a _wave_ &#8211; this will change for each specific survey type, but is basically <em>who</em> receives the survey, <em>when</em> and how often.
+* Deploy the wave and collect the data.  Wave Configuration is specific to each survey type, and is described in detail under &#8220;Deployment&#8221; for each Survey Type</p>
+</div>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>If your projects has study participants, enable one or more of these modules:</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>:ref:`ongoing`</em>: Continously collection of data about a <em>participant</em>, .e.g an SMS survey 3x/day for 2 weeks, see <a class="reference internal" href="modules/ongoing.html#ongoing"><span>ongoing: Ongoing/Repetitive Survey Types</span></a></li>
+<li><em>Single</em>: A one-time questionnaire of a participant, e.g. &#8220;How often did your parents smoke indoors?&#8221;</li>
+<li><em>Tracking</em>: Continuous location data (works with tracking app that runs on participant&#8217;s phone)</li>
+</ul>
+</div></blockquote>
+<p>If your project needs anonymous, remote participants to answer questions about themselves, enable</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>:ref:`opinion`</em>: Questions are answered by anonymous Turkers</li>
+</ul>
+</div></blockquote>
+<p>If your project has or collects data about things, such as places or images, enable</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>Turk Expert</em>: Questions are answered by a single, anonymous Turker about Object Data</li>
+<li><em>Turk Consensus</em>: Questions are answered by multiple, anonymous Turkers about Object Data</li>
+</ul>
+</div></blockquote>
+<p>If your project has a list of places that need to be visited by field workers, install</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>Field</em>: Questions about a list of places visited by field workers.</li>
+</ul>
+</div></blockquote>
+<p>If your project needs to pre-qualify participants, field-workers, or turkers, install</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>Screener</em>: Scored Surveys that pre-qualify participants or Turkers before they begin work.  Unpaid.</li>
+</ul>
+</div></blockquote>
+<p>Because the modules can be run independently and that often a study needs only one or two modules, this documentation describes each module as if it were a separate project.  While a real-world study may enable multiple modules, keeping them separate makes it easier to learn and understand the system.  In the appendix there are examples of more complex configurations.</p>
+<div class="toctree-wrapper compound">
+<ul class="simple">
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">System Overview</a><ul>
+<li><a class="reference internal" href="#terminology">Terminology</a></li>
+<li><a class="reference internal" href="#data-collection-workflow">Data Collection Workflow</a></li>
+<li><a class="reference internal" href="#getting-started">Getting Started</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Overview</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="modules.html"
+                        title="next chapter">Modules</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/getting-started.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modules.html" title="Modules"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Overview"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Survos 3.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2014, Tac Tacelosky &amp; Keith Ivey.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.2.
+    </div>
+  </body>
+</html>

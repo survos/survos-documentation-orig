@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>&lt;no title&gt; &mdash; Survos 3.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '3.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Survos 3.1 documentation" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">Survos 3.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <p>Workflow idea:</p>
+<p>Create a survey, code, overview, questions, etc.  Choose one or more: &#8220;mode&#8221;: sms, ivr, mining, opinion, mms, etc.  If there are variables, define them here, along with defaults for testing.</p>
+<p>From the survey, create one or more &#8220;jobs&#8221; of this type/mode.  Define the pay, participants, triggers, etc.</p>
+<p>Surveys get their own menu.  A job cannot exist without a survey of at least one question.  Sites get sample surveys loaded, but not sample jobs.</p>
+<p>When deploying, use a wizard to deploy the job?</p>
+<p>Deployment Mode:
+Triggers</p>
+<blockquote>
+<div>Random
+Fixed
+Location
+Self</div></blockquote>
+<p>Steps:
+Create An Account.
+Create/Import a survey</p>
+<blockquote>
+<div><ul class="simple">
+<li>Sample Surveys</li>
+<li>Import from Survey Library (via URL)</li>
+<li>Create Your Own</li>
+</ul>
+</div></blockquote>
+<p>Should each account have its own library of phone numbers?
+Activate this Survey on [Available Phone Numbers]</p>
+<p>Ask Twilio: texts received on phones with no url, what happens? Is there a charge?</p>
+<p>Design and Launch a one-week SMS Survey With 10 participants for as little as $20!
+$5 / week for the phone    5
+$1 / week / participant = 10
+100 Text Messages   =  $5.</p>
+<p>Money Back Guarantee &#8211; Full refund (up to $20) for any reason!</p>
+<dl class="docutils">
+<dt>Did you exercise today?</dt>
+<dd>For how many minutes did you exercise?</dd>
+</dl>
+<p>Create a Job from the Survey
+Add a phone number and Participants
+Trigger the survey (need some dynamic updates on the page here)
+Review Graphs, Download the Data</p>
+<dl class="docutils">
+<dt>Graphs:</dt>
+<dd>Pie charts for Radio, Boolean
+Bar Graph for Multiple Choice
+Cloud tag for short text</dd>
+</dl>
+<p>Login with Username/Email/Mobile Phone</p>
+<p>Instead of &#8220;send password&#8221; for mobile phone, could do #register.  Problem, though, is that username, not userId, is used. BAD</p>
+<p>Issues:
+username should be userid in ema_participant
+jobCode should be jobId</p>
+<p>Self-Enrollment</p>
+<p>Self-Registration
+Your comment has been recorded.
+Create an account by typing in a username and password, like this:
+#register username:password &lt;email&gt;
+#turker &lt;turkId&gt;</p>
+<blockquote>
+<div>/</div></blockquote>
+<p>MicroPayments at $X dollars paid via paypal</p>
+<dl class="docutils">
+<dt>New Job Fields:</dt>
+<dd>SMS/MMS Automatic Weekly Renewal?
+Renewal Day (of week)
+Prefix for fastadd/anonymous users (e.g. sctc1)</dd>
+</dl>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/survey-centered-worflow.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">Survos 3.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2014, Tac Tacelosky &amp; Keith Ivey.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.2.
+    </div>
+  </body>
+</html>

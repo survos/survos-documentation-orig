@@ -1,0 +1,24 @@
+..  _url_list_type:
+
+url_list: List of image URLs Survey
+=======================================
+
+
+Basic Workflow
+-------------------------
+* Congigure Survey
+* Design Survey Question
+* Preview with Dummy Data
+* Activate
+* Recruit
+* Collect
+
+Typical Deployment Configuration
+--------------------------------
+
+* 3x/day for 14 days, randomly between participant wake time...
+
+Wave Configuration
+------------------------
+
+Go through each screen of the Wave Form or Wizard for a url_list Wave

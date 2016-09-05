@@ -1,0 +1,24 @@
+..  _recruit_worker_type:
+
+recruit_worker: Recruit Field Workers Survey
+=======================================
+Get Turkers as Field Workers
+
+Basic Workflow
+-------------------------
+* Congigure Survey
+* Design Survey Question
+* Preview with Dummy Data
+* Activate
+* Recruit
+* Collect
+
+Typical Deployment Configuration
+--------------------------------
+
+* 3x/day for 14 days, randomly between participant wake time...
+
+Wave Configuration
+------------------------
+
+Go through each screen of the Wave Form or Wizard for a recruit_worker Wave

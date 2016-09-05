@@ -1,0 +1,24 @@
+..  _survos_type:
+
+survos: Shared Images Survey
+=======================================
+From other Survos project, including filter and metadata
+
+Basic Workflow
+-------------------------
+* Congigure Survey
+* Design Survey Question
+* Preview with Dummy Data
+* Activate
+* Recruit
+* Collect
+
+Typical Deployment Configuration
+--------------------------------
+
+* 3x/day for 14 days, randomly between participant wake time...
+
+Wave Configuration
+------------------------
+
+Go through each screen of the Wave Form or Wizard for a survos Wave

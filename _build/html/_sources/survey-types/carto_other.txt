@@ -1,0 +1,24 @@
+..  _carto_other_type:
+
+carto_other: Carto Other Survey
+=======================================
+
+
+Basic Workflow
+-------------------------
+* Congigure Survey
+* Design Survey Question
+* Preview with Dummy Data
+* Activate
+* Recruit
+* Collect
+
+Typical Deployment Configuration
+--------------------------------
+
+* 3x/day for 14 days, randomly between participant wake time...
+
+Wave Configuration
+------------------------
+
+Go through each screen of the Wave Form or Wizard for a carto_other Wave
