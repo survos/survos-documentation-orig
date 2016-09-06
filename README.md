@@ -20,7 +20,7 @@ cd /var/www/survos-documentation
 
 The rst files outside of the /modules and /survey-type directories are coded manually.  In particular, we need to make sure that they are properly linked to each other and that the toctree is properly set.
 
-Generate docs
+Generate docs:
 ```
 make html
 ```
