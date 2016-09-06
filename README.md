@@ -7,6 +7,7 @@ First, install sphinx
 ```
 sudo pip install sphinx sphinx-autobuild sphinxcontrib-httpdomain
 ```
+
 ##Workflow
 
 Module and Survey Types rst files are generated from the Survos 6 Platform, and 
