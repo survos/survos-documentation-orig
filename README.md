@@ -3,7 +3,7 @@ RST and Generated HTML for Survos Platform (using Sphinx)
 
 ##Getting started
 
-First, install spinx
+First, install sphinx
 ```
 sudo pip install sphinx sphinx-autobuild sphinxcontrib-httpdomain
 ```
