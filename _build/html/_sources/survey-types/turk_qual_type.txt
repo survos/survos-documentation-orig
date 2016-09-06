@@ -1,4 +1,4 @@
-... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+.. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
 ..  _turk_qual_type:
 
@@ -28,80 +28,100 @@ Go through each screen of the Wave Form or Wizard for a turk_qual Wave
 Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: basic http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#basic
 
-These are the fields in tab basic.   This is what it should look like: tab_url_.
+These are the fields in tab basic.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#basic
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=turk_qual+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_qual+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form turk_qual Wave Tab basic
 
-* Name
-* Code
-* BulkLoadSource
-* Notes
-* isActive
+This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#basic
+
+These are the fields
+
+:Name: Description of Name here.  <i>Default: xx</i>
+:Code: Description of Code here.  <i>Default: xx</i>
+:BulkLoadSource: Description of BulkLoadSource here.  <i>Default: xx</i>
+:Notes: Description of Notes here.  <i>Default: xx</i>
+:isActive: Description of isActive here.  <i>Default: xx</i>
 
 Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: enrollment http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#enrollment
 
-These are the fields in tab enrollment.   This is what it should look like: tab_url_.
+These are the fields in tab enrollment.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#enrollment
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=turk_qual+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_qual+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form turk_qual Wave Tab enrollment
 
-* isAutoEnrollOnRegistration
-* is_notify_adminstrators
+This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#enrollment
+
+These are the fields
+
+:isAutoEnrollOnRegistration: Description of isAutoEnrollOnRegistration here.  <i>Default: xx</i>
+:is_notify_adminstrators: Description of is_notify_adminstrators here.  <i>Default: xx</i>
 
 Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: workflow http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#workflow
 
-These are the fields in tab workflow.   This is what it should look like: tab_url_.
+These are the fields in tab workflow.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#workflow
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=turk_qual+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_qual+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form turk_qual Wave Tab workflow
 
-* isTracked
-* ExternalQueueNames
-* TurkDeployment
-* IsAutoPopulateData
+This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#workflow
+
+These are the fields
+
+:isTracked: Description of isTracked here.  <i>Default: xx</i>
+:ExternalQueueNames: Description of ExternalQueueNames here.  <i>Default: xx</i>
+:TurkDeployment: Description of TurkDeployment here.  <i>Default: xx</i>
+:IsAutoPopulateData: Description of IsAutoPopulateData here.  <i>Default: xx</i>
 
 Qualifications
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: qualifications http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#qualifications
 
-These are the fields in tab qualifications.   This is what it should look like: tab_url_.
+These are the fields in tab qualifications.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#qualifications
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=turk_qual+Wave+Tab+qualifications
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_qual+Wave+Tab+qualifications
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form turk_qual Wave Tab qualifications
 
-* HitTitle
-* HitDescription
-* HitAnnotation
-* TestDurationInSeconds
-* RetryDelayInSeconds
-* HitKeywords
-* ProcessMethod
-* IsAutoGrant
-* DefaultScore
+This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?surveyType=turk_qual#qualifications
+
+These are the fields
+
+:HitTitle: Description of HitTitle here.  <i>Default: xx</i>
+:HitDescription: Description of HitDescription here.  <i>Default: xx</i>
+:HitAnnotation: Description of HitAnnotation here.  <i>Default: xx</i>
+:TestDurationInSeconds: Description of TestDurationInSeconds here.  <i>Default: xx</i>
+:RetryDelayInSeconds: Description of RetryDelayInSeconds here.  <i>Default: xx</i>
+:HitKeywords: Description of HitKeywords here.  <i>Default: xx</i>
+:ProcessMethod: Description of ProcessMethod here.  <i>Default: xx</i>
+:IsAutoGrant: Description of IsAutoGrant here.  <i>Default: xx</i>
+:DefaultScore: Description of DefaultScore here.  <i>Default: xx</i>
 

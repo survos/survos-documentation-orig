@@ -1,4 +1,4 @@
-... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+.. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
 ..  _carto_type:
 
@@ -28,55 +28,70 @@ Go through each screen of the Wave Form or Wizard for a carto Wave
 Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: basic http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=carto#basic
 
-These are the fields in tab basic.   This is what it should look like: tab_url_.
+These are the fields in tab basic.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=carto#basic
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=carto+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=carto+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form carto Wave Tab basic
 
-* Name
-* Code
-* BulkLoadSource
-* Notes
-* isActive
+This image will be generated from http://import.l.stagingsurvos.com/wave_repo/new?surveyType=carto#basic
+
+These are the fields
+
+:Name: Description of Name here.  <i>Default: xx</i>
+:Code: Description of Code here.  <i>Default: xx</i>
+:BulkLoadSource: Description of BulkLoadSource here.  <i>Default: xx</i>
+:Notes: Description of Notes here.  <i>Default: xx</i>
+:isActive: Description of isActive here.  <i>Default: xx</i>
 
 Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: enrollment http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=carto#enrollment
 
-These are the fields in tab enrollment.   This is what it should look like: tab_url_.
+These are the fields in tab enrollment.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=carto#enrollment
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=carto+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=carto+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form carto Wave Tab enrollment
 
-* isAutoEnrollOnRegistration
-* is_notify_adminstrators
+This image will be generated from http://import.l.stagingsurvos.com/wave_repo/new?surveyType=carto#enrollment
+
+These are the fields
+
+:isAutoEnrollOnRegistration: Description of isAutoEnrollOnRegistration here.  <i>Default: xx</i>
+:is_notify_adminstrators: Description of is_notify_adminstrators here.  <i>Default: xx</i>
 
 Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: workflow http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=carto#workflow
 
-These are the fields in tab workflow.   This is what it should look like: tab_url_.
+These are the fields in tab workflow.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=carto#workflow
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=carto+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=carto+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form carto Wave Tab workflow
 
-* isTracked
-* ExternalQueueNames
-* IsAutoPopulateData
+This image will be generated from http://import.l.stagingsurvos.com/wave_repo/new?surveyType=carto#workflow
+
+These are the fields
+
+:isTracked: Description of isTracked here.  <i>Default: xx</i>
+:ExternalQueueNames: Description of ExternalQueueNames here.  <i>Default: xx</i>
+:IsAutoPopulateData: Description of IsAutoPopulateData here.  <i>Default: xx</i>
 

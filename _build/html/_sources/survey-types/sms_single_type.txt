@@ -1,4 +1,4 @@
-... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+.. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
 ..  _sms_single_type:
 
@@ -28,81 +28,101 @@ Go through each screen of the Wave Form or Wizard for a sms_single Wave
 Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: basic http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic
 
-These are the fields in tab basic.   This is what it should look like: tab_url_.
+These are the fields in tab basic.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form sms_single Wave Tab basic
 
-* Name
-* Code
-* BulkLoadSource
-* Notes
-* isActive
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic
+
+These are the fields
+
+:Name: Description of Name here.  <i>Default: xx</i>
+:Code: Description of Code here.  <i>Default: xx</i>
+:BulkLoadSource: Description of BulkLoadSource here.  <i>Default: xx</i>
+:Notes: Description of Notes here.  <i>Default: xx</i>
+:isActive: Description of isActive here.  <i>Default: xx</i>
 
 Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: enrollment http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment
 
-These are the fields in tab enrollment.   This is what it should look like: tab_url_.
+These are the fields in tab enrollment.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form sms_single Wave Tab enrollment
 
-* isAutoEnrollOnRegistration
-* is_notify_adminstrators
-* send_welcome_message
-* welcome_message
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment
+
+These are the fields
+
+:isAutoEnrollOnRegistration: Description of isAutoEnrollOnRegistration here.  <i>Default: xx</i>
+:is_notify_adminstrators: Description of is_notify_adminstrators here.  <i>Default: xx</i>
+:send_welcome_message: Description of send_welcome_message here.  <i>Default: xx</i>
+:welcome_message: Description of welcome_message here.  <i>Default: xx</i>
 
 Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: workflow http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow
 
-These are the fields in tab workflow.   This is what it should look like: tab_url_.
+These are the fields in tab workflow.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form sms_single Wave Tab workflow
 
-* isTracked
-* ExternalQueueNames
-* IsAutoPopulateData
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow
+
+These are the fields
+
+:isTracked: Description of isTracked here.  <i>Default: xx</i>
+:ExternalQueueNames: Description of ExternalQueueNames here.  <i>Default: xx</i>
+:IsAutoPopulateData: Description of IsAutoPopulateData here.  <i>Default: xx</i>
 
 Expiration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _tab_url: expiration http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#expiration
 
-These are the fields in tab expiration.   This is what it should look like: tab_url_.
+These are the fields in tab expiration.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#expiration
 
 
-.. image:: http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+expiration
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+expiration
     :height: 400
     :width: 600
     :scale: 50
     :alt: Rendered Form sms_single Wave Tab expiration
 
-* survey_expiration
-* reminder_frequency
-* survey_expiration_response
-* warning_frequency
-* minimum_break_time
-* end_message
-* reminder_message
-* expiration_message
-* warning_message
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#expiration
+
+These are the fields
+
+:survey_expiration: Description of survey_expiration here.  <i>Default: xx</i>
+:reminder_frequency: Description of reminder_frequency here.  <i>Default: xx</i>
+:survey_expiration_response: Description of survey_expiration_response here.  <i>Default: xx</i>
+:warning_frequency: Description of warning_frequency here.  <i>Default: xx</i>
+:minimum_break_time: Description of minimum_break_time here.  <i>Default: xx</i>
+:end_message: Description of end_message here.  <i>Default: xx</i>
+:reminder_message: Description of reminder_message here.  <i>Default: xx</i>
+:expiration_message: Description of expiration_message here.  <i>Default: xx</i>
+:warning_message: Description of warning_message here.  <i>Default: xx</i>
 

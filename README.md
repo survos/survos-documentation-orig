@@ -32,4 +32,4 @@ They are also available on Survos
 
 http://l.stagingsurvos.com/docs/
 
-(Note: auto-publish is not yet set up on StagingSurvos)
+(Note: auto-publish is not yet set up on StagingSurvos)`
