@@ -1,18 +1,33 @@
-special: AdHoc/Admin
+... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+
+..  _special:
+
+special: AdHoc/Admin Survey Types
 =======================================
 Specialized and Miscellaneous Jobs
 
-.. figure:: img-exercise/1-sms-transcript.png
-:width: 500 px
-:alt: SMS Transcript of Exercise Survey
-:align: left
+What's Needed to Deploy
+-------------------------
+
+* Qualified Survey Participants
+* Images
+
+Use Case
+-------------------------
 
 
-This tutorial shows how a monitoring project is set up, and how the monitoring features work on the FLOW dashboard and the FLOW app. We start by introducting a real-life example.
 
-.. container:: clearer
+Typical Questions
+--------------------------
 
-.. image:: /img/spacer.png
 
-Design the Survey
-------------------
+
+Survey Participants
+-------------------------
+
+Administrators can invite or add participants.
+Projects with "Allow Self Registration" and an active Screener Wave allow visitors to create an fill out a pre-qualification survey.
+
+Data Collected
+-------------------------
+

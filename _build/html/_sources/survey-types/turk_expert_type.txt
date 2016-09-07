@@ -40,7 +40,7 @@ These are the fields in tab basic.   This is what it should look like: Taburl_.
     :scale: 50
     :alt: Rendered Form turk_expert Wave Tab basic
 
-This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#basic
+This image will be generated from http://turk.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#basic
 
 .. raw:: html
 
@@ -129,7 +129,7 @@ These are the fields in tab enrollment.   This is what it should look like: Tabu
     :scale: 50
     :alt: Rendered Form turk_expert Wave Tab enrollment
 
-This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#enrollment
+This image will be generated from http://turk.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#enrollment
 
 .. raw:: html
 
@@ -188,7 +188,7 @@ These are the fields in tab workflow.   This is what it should look like: Taburl
     :scale: 50
     :alt: Rendered Form turk_expert Wave Tab workflow
 
-This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#workflow
+This image will be generated from http://turk.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#workflow
 
 .. raw:: html
 
