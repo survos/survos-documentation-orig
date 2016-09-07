@@ -40,7 +40,7 @@ These are the fields in tab basic.   This is what it should look like: Taburl_.
     :scale: 50
     :alt: Rendered Form turk_consensus Wave Tab basic
 
-This image will be generated from http://turk.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#basic
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#basic
 
 .. raw:: html
 
@@ -129,7 +129,7 @@ These are the fields in tab enrollment.   This is what it should look like: Tabu
     :scale: 50
     :alt: Rendered Form turk_consensus Wave Tab enrollment
 
-This image will be generated from http://turk.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#enrollment
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#enrollment
 
 .. raw:: html
 
@@ -154,7 +154,7 @@ This image will be generated from http://turk.l.stagingsurvos.com/wave_repo/new?
                 <td>
                                             <b>Type</b>: boolean                            <br>
                         <b>Required</b>: No<br>
-                                                <b>Validation</b>: Not blank, Min length: 2, Max length: 20<br>                                    </td>
+                                                                                    </td>
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
@@ -188,7 +188,7 @@ These are the fields in tab workflow.   This is what it should look like: Taburl
     :scale: 50
     :alt: Rendered Form turk_consensus Wave Tab workflow
 
-This image will be generated from http://turk.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#workflow
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#workflow
 
 .. raw:: html
 
@@ -269,6 +269,5 @@ This image will be generated from http://turk.l.stagingsurvos.com/wave_repo/new?
                     </tbody>
     </table>
     </div>
-
 
 

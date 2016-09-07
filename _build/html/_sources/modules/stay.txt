@@ -23,8 +23,8 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
-* Map Notes, see :ref:`stay_point_notes_type`
 * Event Notes, see :ref:`stay_event_notes_type`
+* Map Notes, see :ref:`stay_point_notes_type`
 
 
 Survey Participants

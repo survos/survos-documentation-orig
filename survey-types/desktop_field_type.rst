@@ -164,7 +164,7 @@ This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new
                 <td>
                                             <b>Type</b>: boolean                            <br>
                         <b>Required</b>: No<br>
-                                                <b>Validation</b>: Not blank, Min length: 2, Max length: 20<br>                                    </td>
+                                                                                    </td>
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
@@ -348,6 +348,5 @@ This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new
                     </tbody>
     </table>
     </div>
-
 
 

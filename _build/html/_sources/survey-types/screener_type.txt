@@ -40,7 +40,7 @@ These are the fields in tab basic.   This is what it should look like: Taburl_.
     :scale: 50
     :alt: Rendered Form screener Wave Tab basic
 
-This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?surveyType=screener#basic
+This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=screener#basic
 
 .. raw:: html
 
@@ -129,7 +129,7 @@ These are the fields in tab enrollment.   This is what it should look like: Tabu
     :scale: 50
     :alt: Rendered Form screener Wave Tab enrollment
 
-This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?surveyType=screener#enrollment
+This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=screener#enrollment
 
 .. raw:: html
 
@@ -154,7 +154,7 @@ This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?
                 <td>
                                             <b>Type</b>: boolean                            <br>
                         <b>Required</b>: No<br>
-                                                <b>Validation</b>: Not blank, Min length: 2, Max length: 20<br>                                    </td>
+                                                                                    </td>
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
@@ -188,7 +188,7 @@ These are the fields in tab workflow.   This is what it should look like: Taburl
     :scale: 50
     :alt: Rendered Form screener Wave Tab workflow
 
-This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?surveyType=screener#workflow
+This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=screener#workflow
 
 .. raw:: html
 
@@ -248,26 +248,6 @@ This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
-                    Auto Approve                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Approve if Approval Score is met, otherwise just mark as eligible                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Approval Score                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Minimum Score to Automatically Approve Applicant                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
                     Auto Populate Data                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -279,6 +259,5 @@ This image will be generated from http://qual.l.stagingsurvos.com/wave_repo/new?
                     </tbody>
     </table>
     </div>
-
 
 
