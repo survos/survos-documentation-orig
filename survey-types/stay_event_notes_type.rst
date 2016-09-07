@@ -42,13 +42,87 @@ These are the fields in tab basic.   This is what it should look like: Taburl_.
 
 This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#basic
 
-These are the fields
+.. raw:: html
 
-:Name: Description of Name here.  <i>Default: xx</i>
-:Code: Description of Code here.  <i>Default: xx</i>
-:BulkLoadSource: Description of BulkLoadSource here.  <i>Default: xx</i>
-:Notes: Description of Notes here.  <i>Default: xx</i>
-:isActive: Description of isActive here.  <i>Default: xx</i>
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Name                </th>
+                <td>
+                                            <b>Type</b>: string(80)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Code                </th>
+                <td>
+                                            <b>Type</b>: string(80)                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Bulk Import                </th>
+                <td>
+                                            <b>Type</b>: string(24)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Notes                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Field Workers                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Separated By commas, empty means everyone is eligible                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Is Active                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Uncheck to disable and archive                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
 
 Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,10 +141,57 @@ These are the fields in tab enrollment.   This is what it should look like: Tabu
 
 This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#enrollment
 
-These are the fields
+.. raw:: html
 
-:isAutoEnrollOnRegistration: Description of isAutoEnrollOnRegistration here.  <i>Default: xx</i>
-:is_notify_adminstrators: Description of is_notify_adminstrators here.  <i>Default: xx</i>
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto-Schedule                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Schedule Stay Surveys Immediately                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Auto-Enroll                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                <b>Validation</b>: Not blank, Min length: 2, Max length: 20<br>                                    </td>
+                <td>
+                    When a member registers via text or the web, automatically enroll them in this wave                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Notification                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Notify Designated Administrators with Survey Results                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
 
 Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -89,9 +210,174 @@ These are the fields in tab workflow.   This is what it should look like: Taburl
 
 This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#workflow
 
-These are the fields
+.. raw:: html
 
-:isTracked: Description of isTracked here.  <i>Default: xx</i>
-:ExternalQueueNames: Description of ExternalQueueNames here.  <i>Default: xx</i>
-:IsAutoPopulateData: Description of IsAutoPopulateData here.  <i>Default: xx</i>
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Tracked                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Capture Location with Web Survey                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Incoming Queue                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    Incoming queue, for creating or updating assignments.  (need background task?)                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto-Queue                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Queuing disabled for data-less tasks                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Auto Stop                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Stop queuing when queue is empty  (recommended unless data streams in)                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto Populate Data                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Automatically update  data   with results                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
+Routing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+These are the fields in tab routing.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#routing
+
+
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+routing
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form stay_event_notes Wave Tab routing
+
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#routing
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    MobilityPreference                </th>
+                <td>
+                                            <b>Type</b>: string(12)                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Cents/mile                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Minutes/Task                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    RouteDistance                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    RouteTime                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    include_route_points                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
 

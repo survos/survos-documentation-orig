@@ -26,12 +26,12 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
+* Unassociated Data, see :ref:`unassociated_data_type`
 * One-time SMS, see :ref:`sms_single_type`
 * Interview, see :ref:`web_interview_type`
 * Participant Self-Assess (Web), see :ref:`web_self_assess_type`
 * Create Image, see :ref:`single_image_type`
 * Create staypoint, see :ref:`single_staypoint_type`
-* Unassociated Data, see :ref:`unassociated_data_type`
 
 
 Survey Participants

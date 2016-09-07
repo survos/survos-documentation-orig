@@ -42,13 +42,77 @@ These are the fields in tab basic.   This is what it should look like: Taburl_.
 
 This image will be generated from http://opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_opinion#basic
 
-These are the fields
+.. raw:: html
 
-:Name: Description of Name here.  <i>Default: xx</i>
-:Code: Description of Code here.  <i>Default: xx</i>
-:BulkLoadSource: Description of BulkLoadSource here.  <i>Default: xx</i>
-:Notes: Description of Notes here.  <i>Default: xx</i>
-:isActive: Description of isActive here.  <i>Default: xx</i>
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Name                </th>
+                <td>
+                                            <b>Type</b>: string(80)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Code                </th>
+                <td>
+                                            <b>Type</b>: string(80)                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Bulk Import                </th>
+                <td>
+                                            <b>Type</b>: string(24)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Notes                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Is Active                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Uncheck to disable and archive                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
 
 Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,10 +131,47 @@ These are the fields in tab enrollment.   This is what it should look like: Tabu
 
 This image will be generated from http://opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_opinion#enrollment
 
-These are the fields
+.. raw:: html
 
-:isAutoEnrollOnRegistration: Description of isAutoEnrollOnRegistration here.  <i>Default: xx</i>
-:is_notify_adminstrators: Description of is_notify_adminstrators here.  <i>Default: xx</i>
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto-Enroll                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                <b>Validation</b>: Not blank, Min length: 2, Max length: 20<br>                                    </td>
+                <td>
+                    When a member registers via text or the web, automatically enroll them in this wave                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Notification                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Notify Designated Administrators with Survey Results                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
 
 Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -89,12 +190,284 @@ These are the fields in tab workflow.   This is what it should look like: Taburl
 
 This image will be generated from http://opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_opinion#workflow
 
-These are the fields
+.. raw:: html
 
-:isTracked: Description of isTracked here.  <i>Default: xx</i>
-:ExternalQueueNames: Description of ExternalQueueNames here.  <i>Default: xx</i>
-:TurkDeployment: Description of TurkDeployment here.  <i>Default: xx</i>
-:is_notify_adminstrators: Description of is_notify_adminstrators here.  <i>Default: xx</i>
-:IsAutoPublish: Description of IsAutoPublish here.  <i>Default: xx</i>
-:IsAutoPopulateData: Description of IsAutoPopulateData here.  <i>Default: xx</i>
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Tracked                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Capture Location with Web Survey                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Incoming Queue                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    Incoming queue, for creating or updating assignments.  (need background task?)                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Turk Deployment                </th>
+                <td>
+                                            <b>Type</b>: string(12)                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Notification                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Notify Designated Administrators with Survey Results                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto Publish                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Auto-publish tasks to Turk/Import when queued                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
+Task
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+These are the fields in tab task.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_opinion#task
+
+
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_opinion+Wave+Tab+task
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form turk_opinion Wave Tab task
+
+This image will be generated from http://opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_opinion#task
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Task Title                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Seen by Workers                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Description                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Seen by Workers                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Deployment Keywords                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Keywords make searching for jobs easier                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Reward                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    in USD, can be formula                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Repetitions                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Number of Repetitions (aka raters)                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    HIT Lifeftime                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    e.g. 1d 3h 5m for 1 day, 3 hour and 5 minutes                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Time Worker has to complete assignment                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Auto Approval                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Amount of time before Assignment is automatically approved "
+                            ."(faster if consensus reached)                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
+Qualifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+These are the fields in tab qualifications.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_opinion#qualifications
+
+
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_opinion+Wave+Tab+qualifications
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form turk_opinion Wave Tab qualifications
+
+This image will be generated from http://opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_opinion#qualifications
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Use Qualifications                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Restrict tasks to qualified people                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Locale                </th>
+                <td>
+                                            <b>Type</b>: string(32)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    MinApprovalRate                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    MinApprovedHits                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Qualifications                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    SET THESE IN JOB! <strong>Valid qualification types are: </strong> . <br><strong>Valid operators are: </strong>                 </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
 

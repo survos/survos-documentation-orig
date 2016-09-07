@@ -23,8 +23,8 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
-* Turk Expert, see :ref:`turk_expert_type`
 * Turk Consensus, see :ref:`turk_consensus_type`
+* Turk Expert, see :ref:`turk_expert_type`
 
 
 Survey Participants

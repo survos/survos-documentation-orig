@@ -42,13 +42,97 @@ These are the fields in tab basic.   This is what it should look like: Taburl_.
 
 This image will be generated from http://import.l.stagingsurvos.com/wave_repo/new?surveyType=upload_images#basic
 
-These are the fields
+.. raw:: html
 
-:Name: Description of Name here.  <i>Default: xx</i>
-:Code: Description of Code here.  <i>Default: xx</i>
-:BulkLoadSource: Description of BulkLoadSource here.  <i>Default: xx</i>
-:Notes: Description of Notes here.  <i>Default: xx</i>
-:isActive: Description of isActive here.  <i>Default: xx</i>
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Name                </th>
+                <td>
+                                            <b>Type</b>: string(80)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Code                </th>
+                <td>
+                                            <b>Type</b>: string(80)                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Bulk Import                </th>
+                <td>
+                                            <b>Type</b>: string(24)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Notes                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Filter                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    In addition to the Survey Data Filter                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Limit Tasks                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Limit the number published, regardless of input data                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Is Active                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Uncheck to disable and archive                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
 
 Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,10 +151,116 @@ These are the fields in tab enrollment.   This is what it should look like: Tabu
 
 This image will be generated from http://import.l.stagingsurvos.com/wave_repo/new?surveyType=upload_images#enrollment
 
-These are the fields
+.. raw:: html
 
-:isAutoEnrollOnRegistration: Description of isAutoEnrollOnRegistration here.  <i>Default: xx</i>
-:is_notify_adminstrators: Description of is_notify_adminstrators here.  <i>Default: xx</i>
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto-Enroll                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                <b>Validation</b>: Not blank, Min length: 2, Max length: 20<br>                                    </td>
+                <td>
+                    When a member registers via text or the web, automatically enroll them in this wave                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Notification                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Notify Designated Administrators with Survey Results                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
+Upload
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+These are the fields in tab Upload.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=upload_images#Upload
+
+
+.. image::  http://dummyimage.com/600x400/000/fff&text=upload_images+Wave+Tab+Upload
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form upload_images Wave Tab Upload
+
+This image will be generated from http://import.l.stagingsurvos.com/wave_repo/new?surveyType=upload_images#Upload
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Question Code                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Default Question Code Template (twig) for uploaded images                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Tag                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Default Tag Template (twig) for uploaded images                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Tag                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Default Tag Template (twig) for uploaded images                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
 
 Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -89,9 +279,75 @@ These are the fields in tab workflow.   This is what it should look like: Taburl
 
 This image will be generated from http://import.l.stagingsurvos.com/wave_repo/new?surveyType=upload_images#workflow
 
-These are the fields
+.. raw:: html
 
-:isTracked: Description of isTracked here.  <i>Default: xx</i>
-:ExternalQueueNames: Description of ExternalQueueNames here.  <i>Default: xx</i>
-:IsAutoPopulateData: Description of IsAutoPopulateData here.  <i>Default: xx</i>
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Tracked                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Capture Location with Web Survey                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Incoming Queue                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    Incoming queue, for creating or updating assignments.  (need background task?)                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto Publish                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Auto-publish tasks to Turk/Import when queued                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Auto Populate Data                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Automatically   with results                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Push to CartoDB                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    If source data comes from carto                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
 

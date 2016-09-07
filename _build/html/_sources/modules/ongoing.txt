@@ -28,13 +28,13 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
+* Scheduled SMS, see :ref:`sms_scheduled_type`
 * Via API, see :ref:`ongoing_api_type`
 * Self Report via IVR, see :ref:`ivr_self_report_type`
 * Scheduled Calls, see :ref:`ivr_scheduled_type`
 * App Self Report, see :ref:`app_self_report_type`
 * SMS Self Report, see :ref:`sms_self_report_type`
 * App (Scheduled), see :ref:`app_scheduled_type`
-* Scheduled SMS, see :ref:`sms_scheduled_type`
 
 
 Survey Participants

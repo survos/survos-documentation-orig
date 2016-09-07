@@ -23,8 +23,8 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
-* Screener, see :ref:`screener_type`
 * Turk Qualifications, see :ref:`turk_qual_type`
+* Screener, see :ref:`screener_type`
 
 
 Survey Participants
