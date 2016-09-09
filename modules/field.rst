@@ -1,8 +1,8 @@
-... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+.. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
 ..  _field:
 
-field: Field Survey Types
+Field Survey Types
 =======================================
 Field Data Collection at a Specific Place
 
@@ -40,3 +40,6 @@ Projects with "Allow Self Registration" and an active Screener Wave allow visito
 Data Collected
 -------------------------
 
+Technical Notes
+-------------------------
+Code: field

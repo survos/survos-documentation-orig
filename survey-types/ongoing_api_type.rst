@@ -2,7 +2,7 @@
 
 ..  _ongoing_api_type:
 
-ongoing_api: Via API Survey
+Via API Surveys
 =======================================
 Data is populated via API
 
@@ -88,66 +88,6 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
                                                                                     </td>
                 <td>
                                     </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    duration                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    Number of days a participant is enrolled                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Schedule                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    help_block_schedule_configuration                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Scheduling Conditions                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Only schedule when these conditions are met, e.g. dayOfWeek in ['Mon','Wed','Fri'] and dayOfMonth != 22
-                                Fields: dayOfWeek (.e.g Mon), month (e.g. Jan), dayOfMonth (e.g. 15)                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Start Date                </th>
-                <td>
-                                            <b>Type</b>: mixed
-                                    </td>
-                <td>
-                    Starting date of the protocol, when surveys are scheduled / accepted.                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Relative To Start Date                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    +1 for starting the next day                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Specific Start Date                </th>
-                <td>
-                                            <b>Type</b>: datetime                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    Only if type is set to specific, otherwise calculated                </td>
             </tr>
                                     <tr class="row-even">
                 <th class="head">
@@ -296,6 +236,45 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
                 <td>
                     Automatically update  data   with results                </td>
             </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
+Extra
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+These are the fields in tab additional.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#additional
+
+
+.. image::  http://dummyimage.com/600x400/000/fff&text=ongoing_api+Wave+Tab+additional
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form ongoing_api Wave Tab additional
+
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#additional
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
                     </tbody>
     </table>
     </div>

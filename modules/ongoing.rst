@@ -1,8 +1,8 @@
-... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+.. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
 ..  _ongoing:
 
-ongoing: Ongoing/Repetitive Survey Types
+Ongoing Survey Types
 =======================================
 Survey can be scheduled at fixed or random times, or self-initiated or based on location or by the user.
 
@@ -46,3 +46,6 @@ Projects with "Allow Self Registration" and an active Screener Wave allow visito
 Data Collected
 -------------------------
 
+Technical Notes
+-------------------------
+Code: ongoing

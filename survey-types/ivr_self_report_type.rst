@@ -2,7 +2,7 @@
 
 ..  _ivr_self_report_type:
 
-ivr_self_report: Self Report via IVR Survey
+Self Report via IVR Surveys
 =======================================
 Calls initiated by participant (IVR)
 
@@ -91,16 +91,6 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
             </tr>
                                     <tr class="row-even">
                 <th class="head">
-                    duration                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    Number of days a participant is enrolled                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
                     Notes                </th>
                 <td>
                                             <b>Type</b>: text                            <br>
@@ -109,7 +99,7 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
                 <td>
                                     </td>
             </tr>
-                                    <tr class="row-even">
+                                    <tr class="row-odd">
                 <th class="head">
                     Is Active                </th>
                 <td>
@@ -246,6 +236,45 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
                 <td>
                     Automatically update  data   with results                </td>
             </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
+Extra
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+These are the fields in tab additional.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#additional
+
+
+.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_self_report+Wave+Tab+additional
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form ivr_self_report Wave Tab additional
+
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#additional
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
                     </tbody>
     </table>
     </div>

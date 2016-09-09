@@ -2,7 +2,7 @@
 
 ..  _desktop_field_type:
 
-desktop_field: Desktop Field Tasks Survey
+Desktop Field Tasks Surveys
 =======================================
 Tasks Without In-person Visit
 
@@ -100,16 +100,6 @@ This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new
                                     </td>
             </tr>
                                     <tr class="row-odd">
-                <th class="head">
-                    Field Workers                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Separated By commas, empty means everyone is eligible                </td>
-            </tr>
-                                    <tr class="row-even">
                 <th class="head">
                     Is Active                </th>
                 <td>
@@ -251,22 +241,22 @@ This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new
     </div>
 
 
-Routing
+Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-These are the fields in tab routing.   This is what it should look like: Taburl_.
+These are the fields in tab additional.   This is what it should look like: Taburl_.
 
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#routing
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#additional
 
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+routing
+.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form desktop_field Wave Tab routing
+    :alt: Rendered Form desktop_field Wave Tab additional
 
-This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#routing
+This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#additional
 
 .. raw:: html
 
@@ -285,66 +275,6 @@ This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new
             </tr>
         </thead>
         <tbody valign="top">
-                                    <tr class="row-odd">
-                <th class="head">
-                    MobilityPreference                </th>
-                <td>
-                                            <b>Type</b>: string(12)                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Cents/mile                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Minutes/Task                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    RouteDistance                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    RouteTime                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    include_route_points                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
                     </tbody>
     </table>
     </div>

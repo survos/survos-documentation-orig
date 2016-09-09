@@ -1,8 +1,8 @@
-... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+.. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
 ..  _single:
 
-single: Single Survey Types
+Single Survey Types
 =======================================
 Single  surveys, e.g. baseline or followup, completed on the web
 
@@ -43,3 +43,6 @@ Projects with "Allow Self Registration" and an active Screener Wave allow visito
 Data Collected
 -------------------------
 
+Technical Notes
+-------------------------
+Code: single

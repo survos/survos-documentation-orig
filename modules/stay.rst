@@ -1,8 +1,8 @@
-... This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
+.. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
 ..  _stay:
 
-stay: Stay Survey Types
+Stay Survey Types
 =======================================
 Staypoints and events
 
@@ -36,3 +36,6 @@ Projects with "Allow Self Registration" and an active Screener Wave allow visito
 Data Collected
 -------------------------
 
+Technical Notes
+-------------------------
+Code: stay

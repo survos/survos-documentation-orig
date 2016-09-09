@@ -2,7 +2,7 @@
 
 ..  _web_self_assess_type:
 
-web_self_assess: Participant Self-Assess (Web) Survey
+Participant Self-Assess (Web) Surveys
 =======================================
 Web-based, done by logged-in participant
 
@@ -150,16 +150,6 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
         <tbody valign="top">
                                     <tr class="row-odd">
                 <th class="head">
-                    Auto-Schedule                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Schedule Assignment Immediately                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
                     Auto-Enroll                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -168,7 +158,7 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
-                                    <tr class="row-odd">
+                                    <tr class="row-even">
                 <th class="head">
                     Notification                </th>
                 <td>
@@ -246,6 +236,45 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
                 <td>
                     Automatically update  data   with results                </td>
             </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
+Extra
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+These are the fields in tab additional.   This is what it should look like: Taburl_.
+
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#additional
+
+
+.. image::  http://dummyimage.com/600x400/000/fff&text=web_self_assess+Wave+Tab+additional
+    :height: 400
+    :width: 600
+    :scale: 50
+    :alt: Rendered Form web_self_assess Wave Tab additional
+
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#additional
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
                     </tbody>
     </table>
     </div>

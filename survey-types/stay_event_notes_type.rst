@@ -2,7 +2,7 @@
 
 ..  _stay_event_notes_type:
 
-stay_event_notes: Event Notes Survey
+Event Notes Surveys
 =======================================
 Questions about an event
 
@@ -101,16 +101,6 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
-                    Field Workers                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Separated By commas, empty means everyone is eligible                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
                     Is Active                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -160,16 +150,6 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
         <tbody valign="top">
                                     <tr class="row-odd">
                 <th class="head">
-                    Auto-Schedule                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Schedule Stay Surveys Immediately                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
                     Auto-Enroll                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -178,7 +158,7 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
-                                    <tr class="row-odd">
+                                    <tr class="row-even">
                 <th class="head">
                     Notification                </th>
                 <td>
@@ -248,26 +228,6 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
-                    Auto-Queue                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Queuing disabled for data-less tasks                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Auto Stop                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Stop queuing when queue is empty  (recommended unless data streams in)                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
                     Auto Populate Data                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -281,22 +241,22 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
     </div>
 
 
-Routing
+Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-These are the fields in tab routing.   This is what it should look like: Taburl_.
+These are the fields in tab additional.   This is what it should look like: Taburl_.
 
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#routing
+.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#additional
 
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+routing
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form stay_event_notes Wave Tab routing
+    :alt: Rendered Form stay_event_notes Wave Tab additional
 
-This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#routing
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#additional
 
 .. raw:: html
 
@@ -315,66 +275,6 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
             </tr>
         </thead>
         <tbody valign="top">
-                                    <tr class="row-odd">
-                <th class="head">
-                    MobilityPreference                </th>
-                <td>
-                                            <b>Type</b>: string(12)                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Cents/mile                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Minutes/Task                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    RouteDistance                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    RouteTime                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    include_route_points                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
                     </tbody>
     </table>
     </div>

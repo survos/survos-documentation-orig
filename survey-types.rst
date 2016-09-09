@@ -68,9 +68,6 @@ All of the job types ask the following information:
  Notes
  Type:
 
-.. figure:: images/survos-create-account.png
-:width: 700
-
    Survos Create Account
 
 Follow the prompts on the screen.  The only item that can't be changed later is the client code, which will also become part of your url, *clientCode*.survos.com.
@@ -78,7 +75,3 @@ Follow the prompts on the screen.  The only item that can't be changed later is 
 After a few minutes, you'll receive an email with your account login information.
 
 
-.. toctree::
-:maxdepth: 2
-
-       users-participants/enrolling-participants

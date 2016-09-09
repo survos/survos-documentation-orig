@@ -14,7 +14,6 @@ Contents:
    users-participants
    tutorials
    tracking
-   api/index
 
 Indexes and tables
 ==================

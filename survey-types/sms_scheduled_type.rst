@@ -2,7 +2,7 @@
 
 ..  _sms_scheduled_type:
 
-sms_scheduled: Scheduled SMS Survey
+Scheduled SMS Surveys
 =======================================
 Text Messages sent on schedule (EMA)
 
@@ -91,66 +91,6 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
             </tr>
                                     <tr class="row-even">
                 <th class="head">
-                    duration                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    Number of days a participant is enrolled                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Schedule                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    help_block_schedule_configuration                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Scheduling Conditions                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Only schedule when these conditions are met, e.g. dayOfWeek in ['Mon','Wed','Fri'] and dayOfMonth != 22
-                                Fields: dayOfWeek (.e.g Mon), month (e.g. Jan), dayOfMonth (e.g. 15)                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Start Date                </th>
-                <td>
-                                            <b>Type</b>: mixed
-                                    </td>
-                <td>
-                    Starting date of the protocol, when surveys are scheduled / accepted.                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Relative To Start Date                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    +1 for starting the next day                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Specific Start Date                </th>
-                <td>
-                                            <b>Type</b>: datetime                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    Only if type is set to specific, otherwise calculated                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
                     Notes                </th>
                 <td>
                                             <b>Type</b>: text                            <br>
@@ -210,16 +150,6 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
         <tbody valign="top">
                                     <tr class="row-odd">
                 <th class="head">
-                    Auto-Schedule                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    When a member registers via text or the web, schedule their assignments immediately                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
                     Auto-Enroll                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -228,7 +158,7 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
-                                    <tr class="row-odd">
+                                    <tr class="row-even">
                 <th class="head">
                     Notification                </th>
                 <td>
@@ -237,26 +167,6 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
                                                                                     </td>
                 <td>
                     Notify Designated Administrators with Survey Results                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Welcome                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Send a welcome text message upon enrollment                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Message                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Welcome Message                </td>
             </tr>
                     </tbody>
     </table>
@@ -325,135 +235,6 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
                                                                                     </td>
                 <td>
                     Automatically update  data   with results                </td>
-            </tr>
-                    </tbody>
-    </table>
-    </div>
-
-
-Expiration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-These are the fields in tab expiration.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#expiration
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=sms_scheduled+Wave+Tab+expiration
-    :height: 400
-    :width: 600
-    :scale: 50
-    :alt: Rendered Form sms_scheduled Wave Tab expiration
-
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#expiration
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-        <colgroup>
-        <col width="15%">
-        <col width="25%">
-        <col width="60%">
-        </colgroup>
-        <thead valign="bottom">
-            <tr class="row-odd">
-                <th class="head">Field</th>
-                <th class="head">Info</th>
-                <th class="head">Description</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-                                    <tr class="row-odd">
-                <th class="head">
-                    Minutes before expiration                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    Minutes since initial prompt before expiring                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Number of Reminders before Expiration                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    If 0, no reminders                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Maximum survey length                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                    Time since first response (in minutes) before marking as Abandoned                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Warning Frequency                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Once responding, minutes between warnings                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Minimum Time Between Same Surveys                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Delay surveys if necessary by this amount (in minutes)                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    End Message                </th>
-                <td>
-                                            <b>Type</b>: string(150)                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Reminder Message                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Expiration Message                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Warning Message                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
             </tr>
                     </tbody>
     </table>
