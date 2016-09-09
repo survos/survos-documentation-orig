@@ -46,3 +46,14 @@ Data Collected
 Technical Notes
 -------------------------
 Code: single
+
+
+.. toctree::
+    :maxdepth: 2
+
+    survey-types/sms_single
+    survey-types/web_interview
+    survey-types/web_self_assess
+    survey-types/single_image
+    survey-types/single_staypoint
+    survey-types/unassociated_data

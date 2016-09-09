@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _turk_participants_type:
+..  _app_self_report_type:
 
-Turk Participant Surveys
+App Self Report Surveys
 =======================================
-
+Self-Initiated or Geo-triggered on Survos Observe
 
 Basic Workflow
 -------------------------
-* Configure a Turk Participant Survey
+* Configure a App Self Report Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+app_self_report Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a turk_participants Wave
+Go through each screen of the Wave Form or Wizard for a app_self_report Wave
 
-Basic
+app_self_report Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the app_self_report Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_participants+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form turk_participants Wave Tab basic
+    :alt: Rendered Form app_self_report Wave Tab basic
 
-This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#basic
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_r
     </div>
 
 
-Enrollment
+app_self_report Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the app_self_report Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_participants+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form turk_participants Wave Tab enrollment
+    :alt: Rendered Form app_self_report Wave Tab enrollment
 
-This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#enrollment
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_r
     </div>
 
 
-Workflow
+app_self_report Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the app_self_report Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_participants+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form turk_participants Wave Tab workflow
+    :alt: Rendered Form app_self_report Wave Tab workflow
 
-This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#workflow
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#workflow
 
 .. raw:: html
 
@@ -228,36 +219,6 @@ This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_r
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
-                    Turk Deployment                </th>
-                <td>
-                                            <b>Type</b>: string(12)                            <br>
-                        <b>Required</b>: Yes<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Notification                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Notify Designated Administrators with Survey Results                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Auto Publish                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Auto-publish tasks to Turk/Import when queued                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
                     Auto Populate Data                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -271,22 +232,19 @@ This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_r
     </div>
 
 
-Extra
+app_self_report Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the app_self_report Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_participants+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form turk_participants Wave Tab additional
+    :alt: Rendered Form app_self_report Wave Tab additional
 
-This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#additional
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#additional
 
 .. raw:: html
 

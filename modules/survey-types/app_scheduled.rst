@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _ivr_scheduled_type:
+..  _app_scheduled_type:
 
-Scheduled Calls Surveys
+App (Scheduled) Surveys
 =======================================
-Calls sent on schedule (IVR)
+Prompted on Survos Observe
 
 Basic Workflow
 -------------------------
-* Configure a Scheduled Calls Survey
+* Configure a App (Scheduled) Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+app_scheduled Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a ivr_scheduled Wave
+Go through each screen of the Wave Form or Wizard for a app_scheduled Wave
 
-Basic
+app_scheduled Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the app_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_scheduled+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ivr_scheduled Wave Tab basic
+    :alt: Rendered Form app_scheduled Wave Tab basic
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#basic
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Enrollment
+app_scheduled Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the app_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_scheduled+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ivr_scheduled Wave Tab enrollment
+    :alt: Rendered Form app_scheduled Wave Tab enrollment
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#enrollment
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Workflow
+app_scheduled Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the app_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_scheduled+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ivr_scheduled Wave Tab workflow
+    :alt: Rendered Form app_scheduled Wave Tab workflow
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#workflow
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Extra
+app_scheduled Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the app_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_scheduled+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ivr_scheduled Wave Tab additional
+    :alt: Rendered Form app_scheduled Wave Tab additional
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#additional
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#additional
 
 .. raw:: html
 

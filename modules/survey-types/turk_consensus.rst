@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _turk_screener_type:
+..  _turk_consensus_type:
 
-Turk Qualifications Surveys
+Turk Consensus Surveys
 =======================================
-Internal, used for storing Turk Qualification Tasks
+Web-based surveys for Turkers
 
 Basic Workflow
 -------------------------
-* Configure a Turk Qualifications Survey
+* Configure a Turk Consensus Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+turk_consensus Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a turk_screener Wave
+Go through each screen of the Wave Form or Wizard for a turk_consensus Wave
 
-Basic
+turk_consensus Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the turk_consensus Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_consensus+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form turk_screener Wave Tab basic
+    :alt: Rendered Form turk_consensus Wave Tab basic
 
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#basic
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
     </div>
 
 
-Enrollment
+turk_consensus Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the turk_consensus Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_consensus+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form turk_screener Wave Tab enrollment
+    :alt: Rendered Form turk_consensus Wave Tab enrollment
 
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#enrollment
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
     </div>
 
 
-Workflow
+turk_consensus Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the turk_consensus Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_consensus+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form turk_screener Wave Tab workflow
+    :alt: Rendered Form turk_consensus Wave Tab workflow
 
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#workflow
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#workflow
 
 .. raw:: html
 
@@ -219,26 +210,6 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
             </tr>
                                     <tr class="row-even">
                 <th class="head">
-                    Goal                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Goal for the number of participants for this wave                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Max                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Maximum number of participants for this wave                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
                     Incoming Queue                </th>
                 <td>
                                             <b>Type</b>: mixed
@@ -248,35 +219,62 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
+                    Turk Deployment                </th>
+                <td>
+                                            <b>Type</b>: string(12)                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Notification                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Notify Designated Administrators with Survey Results                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto Publish                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Auto-publish tasks to Turk/Import when queued                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Auto Populate Data                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
                         <b>Required</b>: No<br>
                                                                                     </td>
                 <td>
-                    Automatically update member data   with results                </td>
+                    Automatically update  data   with results                </td>
             </tr>
                     </tbody>
     </table>
     </div>
 
 
-Extra
+turk_consensus Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the turk_consensus Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_consensus+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form turk_screener Wave Tab additional
+    :alt: Rendered Form turk_consensus Wave Tab additional
 
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#additional
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_consensus#additional
 
 .. raw:: html
 

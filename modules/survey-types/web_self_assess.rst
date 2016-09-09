@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _single_image_type:
+..  _web_self_assess_type:
 
-Create Image Surveys
+Participant Self-Assess (Web) Surveys
 =======================================
-Image plus metadata
+Web-based, done by logged-in participant
 
 Basic Workflow
 -------------------------
-* Configure a Create Image Survey
+* Configure a Participant Self-Assess (Web) Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+web_self_assess Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a single_image Wave
+Go through each screen of the Wave Form or Wizard for a web_self_assess Wave
 
-Basic
+web_self_assess Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the web_self_assess Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_image#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_image+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=web_self_assess+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form single_image Wave Tab basic
+    :alt: Rendered Form web_self_assess Wave Tab basic
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_image#basic
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Enrollment
+web_self_assess Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the web_self_assess Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_image#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_image+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=web_self_assess+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form single_image Wave Tab enrollment
+    :alt: Rendered Form web_self_assess Wave Tab enrollment
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_image#enrollment
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Workflow
+web_self_assess Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the web_self_assess Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_image#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_image+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=web_self_assess+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form single_image Wave Tab workflow
+    :alt: Rendered Form web_self_assess Wave Tab workflow
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_image#workflow
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Extra
+web_self_assess Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the web_self_assess Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_image#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_image+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=web_self_assess+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form single_image Wave Tab additional
+    :alt: Rendered Form web_self_assess Wave Tab additional
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_image#additional
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=web_self_assess#additional
 
 .. raw:: html
 

@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _sms_single_type:
+..  _desktop_field_type:
 
-One-time SMS Surveys
+Desktop Field Tasks Surveys
 =======================================
-Welcome message, Phone verification code
+Tasks Without In-person Visit
 
 Basic Workflow
 -------------------------
-* Configure a One-time SMS Survey
+* Configure a Desktop Field Tasks Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+desktop_field Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a sms_single Wave
+Go through each screen of the Wave Form or Wizard for a desktop_field Wave
 
-Basic
+desktop_field Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the desktop_field Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form sms_single Wave Tab basic
+    :alt: Rendered Form desktop_field Wave Tab basic
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic
+This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Enrollment
+desktop_field Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the desktop_field Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form sms_single Wave Tab enrollment
+    :alt: Rendered Form desktop_field Wave Tab enrollment
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment
+This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Workflow
+desktop_field Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the desktop_field Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form sms_single Wave Tab workflow
+    :alt: Rendered Form desktop_field Wave Tab workflow
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow
+This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Extra
+desktop_field Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the desktop_field Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form sms_single Wave Tab additional
+    :alt: Rendered Form desktop_field Wave Tab additional
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#additional
+This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#additional
 
 .. raw:: html
 

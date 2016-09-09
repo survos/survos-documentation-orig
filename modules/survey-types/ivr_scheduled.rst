@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _participant_screener_type:
+..  _ivr_scheduled_type:
 
-Screener Surveys
+Scheduled Calls Surveys
 =======================================
-Used to screen potential study participants
+Calls sent on schedule (IVR)
 
 Basic Workflow
 -------------------------
-* Configure a Screener Survey
+* Configure a Scheduled Calls Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+ivr_scheduled Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a participant_screener Wave
+Go through each screen of the Wave Form or Wizard for a ivr_scheduled Wave
 
-Basic
+ivr_scheduled Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the ivr_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=participant_screener+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form participant_screener Wave Tab basic
+    :alt: Rendered Form ivr_scheduled Wave Tab basic
 
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#basic
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
     </div>
 
 
-Enrollment
+ivr_scheduled Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the ivr_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=participant_screener+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form participant_screener Wave Tab enrollment
+    :alt: Rendered Form ivr_scheduled Wave Tab enrollment
 
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#enrollment
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
     </div>
 
 
-Workflow
+ivr_scheduled Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the ivr_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=participant_screener+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form participant_screener Wave Tab workflow
+    :alt: Rendered Form ivr_scheduled Wave Tab workflow
 
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#workflow
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#workflow
 
 .. raw:: html
 
@@ -219,26 +210,6 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
             </tr>
                                     <tr class="row-even">
                 <th class="head">
-                    Goal                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Goal for the number of participants for this wave                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    Max                </th>
-                <td>
-                                            <b>Type</b>: integer                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Maximum number of participants for this wave                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
                     Incoming Queue                </th>
                 <td>
                                             <b>Type</b>: mixed
@@ -254,29 +225,26 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
                         <b>Required</b>: No<br>
                                                                                     </td>
                 <td>
-                    Automatically update member data   with results                </td>
+                    Automatically update  data   with results                </td>
             </tr>
                     </tbody>
     </table>
     </div>
 
 
-Extra
+ivr_scheduled Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the ivr_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=participant_screener+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form participant_screener Wave Tab additional
+    :alt: Rendered Form ivr_scheduled Wave Tab additional
 
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#additional
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#additional
 
 .. raw:: html
 

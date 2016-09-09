@@ -39,3 +39,10 @@ Data Collected
 Technical Notes
 -------------------------
 Code: stay
+
+
+.. toctree::
+    :maxdepth: 2
+
+    survey-types/stay_event_notes
+    survey-types/stay_point_notes

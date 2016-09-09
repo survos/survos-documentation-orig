@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _unassociated_data_type:
+..  _turk_screener_type:
 
-Unassociated Data Surveys
+Turk Qualifications Surveys
 =======================================
-Create data not associated with member
+Internal, used for storing Turk Qualification Tasks
 
 Basic Workflow
 -------------------------
-* Configure a Unassociated Data Survey
+* Configure a Turk Qualifications Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+turk_screener Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a unassociated_data Wave
+Go through each screen of the Wave Form or Wizard for a turk_screener Wave
 
-Basic
+turk_screener Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the turk_screener Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form unassociated_data Wave Tab basic
+    :alt: Rendered Form turk_screener Wave Tab basic
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#basic
+This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Enrollment
+turk_screener Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the turk_screener Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form unassociated_data Wave Tab enrollment
+    :alt: Rendered Form turk_screener Wave Tab enrollment
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#enrollment
+This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Workflow
+turk_screener Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the turk_screener Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form unassociated_data Wave Tab workflow
+    :alt: Rendered Form turk_screener Wave Tab workflow
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#workflow
+This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#workflow
 
 .. raw:: html
 
@@ -219,6 +210,26 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
             </tr>
                                     <tr class="row-even">
                 <th class="head">
+                    Goal                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Goal for the number of participants for this wave                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Max                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Maximum number of participants for this wave                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Incoming Queue                </th>
                 <td>
                                             <b>Type</b>: mixed
@@ -234,29 +245,26 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
                         <b>Required</b>: No<br>
                                                                                     </td>
                 <td>
-                    Automatically update  data   with results                </td>
+                    Automatically update member data   with results                </td>
             </tr>
                     </tbody>
     </table>
     </div>
 
 
-Extra
+turk_screener Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the turk_screener Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form unassociated_data Wave Tab additional
+    :alt: Rendered Form turk_screener Wave Tab additional
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#additional
+This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#additional
 
 .. raw:: html
 

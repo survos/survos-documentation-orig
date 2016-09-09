@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _app_self_report_type:
+..  _unassociated_data_type:
 
-App Self Report Surveys
+Unassociated Data Surveys
 =======================================
-Self-Initiated or Geo-triggered on Survos Observe
+Create data not associated with member
 
 Basic Workflow
 -------------------------
-* Configure a App Self Report Survey
+* Configure a Unassociated Data Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+unassociated_data Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a app_self_report Wave
+Go through each screen of the Wave Form or Wizard for a unassociated_data Wave
 
-Basic
+unassociated_data Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the unassociated_data Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form app_self_report Wave Tab basic
+    :alt: Rendered Form unassociated_data Wave Tab basic
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#basic
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Enrollment
+unassociated_data Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the unassociated_data Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form app_self_report Wave Tab enrollment
+    :alt: Rendered Form unassociated_data Wave Tab enrollment
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#enrollment
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Workflow
+unassociated_data Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the unassociated_data Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form app_self_report Wave Tab workflow
+    :alt: Rendered Form unassociated_data Wave Tab workflow
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#workflow
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Extra
+unassociated_data Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the unassociated_data Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form app_self_report Wave Tab additional
+    :alt: Rendered Form unassociated_data Wave Tab additional
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#additional
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#additional
 
 .. raw:: html
 

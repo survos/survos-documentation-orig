@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _device_type:
+..  _stay_event_notes_type:
 
-Geo-Tracking Surveys
+Event Notes Surveys
 =======================================
-Tracking via a tracking app
+Questions about an event
 
 Basic Workflow
 -------------------------
-* Configure a Geo-Tracking Survey
+* Configure a Event Notes Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+stay_event_notes Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a device Wave
+Go through each screen of the Wave Form or Wizard for a stay_event_notes Wave
 
-Basic
+stay_event_notes Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the stay_event_notes Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=device#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=device+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form device Wave Tab basic
+    :alt: Rendered Form stay_event_notes Wave Tab basic
 
-This image will be generated from http://tracking.l.stagingsurvos.com/wave_repo/new?surveyType=device#basic
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://tracking.l.stagingsurvos.com/wave_repo/
     </div>
 
 
-Enrollment
+stay_event_notes Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the stay_event_notes Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=device#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=device+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form device Wave Tab enrollment
+    :alt: Rendered Form stay_event_notes Wave Tab enrollment
 
-This image will be generated from http://tracking.l.stagingsurvos.com/wave_repo/new?surveyType=device#enrollment
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://tracking.l.stagingsurvos.com/wave_repo/
     </div>
 
 
-Workflow
+stay_event_notes Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the stay_event_notes Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=device#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=device+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form device Wave Tab workflow
+    :alt: Rendered Form stay_event_notes Wave Tab workflow
 
-This image will be generated from http://tracking.l.stagingsurvos.com/wave_repo/new?surveyType=device#workflow
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://tracking.l.stagingsurvos.com/wave_repo/
     </div>
 
 
-Extra
+stay_event_notes Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the stay_event_notes Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=device#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=device+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form device Wave Tab additional
+    :alt: Rendered Form stay_event_notes Wave Tab additional
 
-This image will be generated from http://tracking.l.stagingsurvos.com/wave_repo/new?surveyType=device#additional
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#additional
 
 .. raw:: html
 

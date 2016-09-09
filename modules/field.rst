@@ -43,3 +43,10 @@ Data Collected
 Technical Notes
 -------------------------
 Code: field
+
+
+.. toctree::
+    :maxdepth: 2
+
+    survey-types/app_field
+    survey-types/desktop_field

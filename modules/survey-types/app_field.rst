@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _ongoing_api_type:
+..  _app_field_type:
 
-Via API Surveys
+Survos Mobile Surveys
 =======================================
-Data is populated via API
+Survos Mobile App for Field Data Collection
 
 Basic Workflow
 -------------------------
-* Configure a Via API Survey
+* Configure a Survos Mobile Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+app_field Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a ongoing_api Wave
+Go through each screen of the Wave Form or Wizard for a app_field Wave
 
-Basic
+app_field Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the app_field Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_field#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ongoing_api+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_field+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ongoing_api Wave Tab basic
+    :alt: Rendered Form app_field Wave Tab basic
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#basic
+This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=app_field#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Enrollment
+app_field Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the app_field Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_field#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ongoing_api+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_field+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ongoing_api Wave Tab enrollment
+    :alt: Rendered Form app_field Wave Tab enrollment
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#enrollment
+This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=app_field#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Workflow
+app_field Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the app_field Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_field#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ongoing_api+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_field+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ongoing_api Wave Tab workflow
+    :alt: Rendered Form app_field Wave Tab workflow
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#workflow
+This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=app_field#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Extra
+app_field Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the app_field Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_field#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ongoing_api+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=app_field+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ongoing_api Wave Tab additional
+    :alt: Rendered Form app_field Wave Tab additional
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ongoing_api#additional
+This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=app_field#additional
 
 .. raw:: html
 

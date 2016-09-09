@@ -49,3 +49,15 @@ Data Collected
 Technical Notes
 -------------------------
 Code: ongoing
+
+
+.. toctree::
+    :maxdepth: 2
+
+    survey-types/ongoing_api
+    survey-types/ivr_self_report
+    survey-types/ivr_scheduled
+    survey-types/app_self_report
+    survey-types/sms_self_report
+    survey-types/app_scheduled
+    survey-types/sms_scheduled

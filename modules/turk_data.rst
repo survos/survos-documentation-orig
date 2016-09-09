@@ -39,3 +39,10 @@ Data Collected
 Technical Notes
 -------------------------
 Code: turk_data
+
+
+.. toctree::
+    :maxdepth: 2
+
+    survey-types/turk_expert
+    survey-types/turk_consensus

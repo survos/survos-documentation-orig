@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _ivr_self_report_type:
+..  _sms_scheduled_type:
 
-Self Report via IVR Surveys
+Scheduled SMS Surveys
 =======================================
-Calls initiated by participant (IVR)
+Text Messages sent on schedule (EMA)
 
 Basic Workflow
 -------------------------
-* Configure a Self Report via IVR Survey
+* Configure a Scheduled SMS Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+sms_scheduled Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a ivr_self_report Wave
+Go through each screen of the Wave Form or Wizard for a sms_scheduled Wave
 
-Basic
+sms_scheduled Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the sms_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_self_report+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_scheduled+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ivr_self_report Wave Tab basic
+    :alt: Rendered Form sms_scheduled Wave Tab basic
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#basic
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Enrollment
+sms_scheduled Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the sms_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_self_report+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_scheduled+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ivr_self_report Wave Tab enrollment
+    :alt: Rendered Form sms_scheduled Wave Tab enrollment
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#enrollment
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Workflow
+sms_scheduled Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the sms_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_self_report+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_scheduled+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ivr_self_report Wave Tab workflow
+    :alt: Rendered Form sms_scheduled Wave Tab workflow
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#workflow
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Extra
+sms_scheduled Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the sms_scheduled Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_self_report+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_scheduled+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form ivr_self_report Wave Tab additional
+    :alt: Rendered Form sms_scheduled Wave Tab additional
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_self_report#additional
+This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=sms_scheduled#additional
 
 .. raw:: html
 

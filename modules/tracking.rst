@@ -38,3 +38,9 @@ Data Collected
 Technical Notes
 -------------------------
 Code: tracking
+
+
+.. toctree::
+    :maxdepth: 2
+
+    survey-types/device

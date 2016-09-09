@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _stay_point_notes_type:
+..  _turk_expert_type:
 
-Map Notes Surveys
+Turk Expert Surveys
 =======================================
-Questions about an staypoint
+
 
 Basic Workflow
 -------------------------
-* Configure a Map Notes Survey
+* Configure a Turk Expert Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+turk_expert Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a stay_point_notes Wave
+Go through each screen of the Wave Form or Wizard for a turk_expert Wave
 
-Basic
+turk_expert Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the turk_expert Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_expert+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form stay_point_notes Wave Tab basic
+    :alt: Rendered Form turk_expert Wave Tab basic
 
-This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#basic
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
     </div>
 
 
-Enrollment
+turk_expert Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the turk_expert Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_expert+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form stay_point_notes Wave Tab enrollment
+    :alt: Rendered Form turk_expert Wave Tab enrollment
 
-This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#enrollment
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
     </div>
 
 
-Workflow
+turk_expert Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the turk_expert Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_expert+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form stay_point_notes Wave Tab workflow
+    :alt: Rendered Form turk_expert Wave Tab workflow
 
-This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#workflow
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#workflow
 
 .. raw:: html
 
@@ -228,6 +219,36 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
+                    Turk Deployment                </th>
+                <td>
+                                            <b>Type</b>: string(12)                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Notification                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Notify Designated Administrators with Survey Results                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto Publish                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Auto-publish tasks to Turk/Import when queued                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Auto Populate Data                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -241,22 +262,19 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
     </div>
 
 
-Extra
+turk_expert Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the turk_expert Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=turk_expert+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form stay_point_notes Wave Tab additional
+    :alt: Rendered Form turk_expert Wave Tab additional
 
-This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#additional
+This image will be generated from http://turk_data.l.stagingsurvos.com/wave_repo/new?surveyType=turk_expert#additional
 
 .. raw:: html
 

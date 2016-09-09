@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _app_scheduled_type:
+..  _single_staypoint_type:
 
-App (Scheduled) Surveys
+Create staypoint Surveys
 =======================================
-Prompted on Survos Observe
+Geographic Boundary plus metadata
 
 Basic Workflow
 -------------------------
-* Configure a App (Scheduled) Survey
+* Configure a Create staypoint Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+single_staypoint Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a app_scheduled Wave
+Go through each screen of the Wave Form or Wizard for a single_staypoint Wave
 
-Basic
+single_staypoint Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the single_staypoint Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_scheduled+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form app_scheduled Wave Tab basic
+    :alt: Rendered Form single_staypoint Wave Tab basic
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#basic
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Enrollment
+single_staypoint Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the single_staypoint Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_scheduled+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form app_scheduled Wave Tab enrollment
+    :alt: Rendered Form single_staypoint Wave Tab enrollment
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#enrollment
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Workflow
+single_staypoint Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the single_staypoint Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_scheduled+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form app_scheduled Wave Tab workflow
+    :alt: Rendered Form single_staypoint Wave Tab workflow
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#workflow
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
     </div>
 
 
-Extra
+single_staypoint Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the single_staypoint Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_scheduled+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form app_scheduled Wave Tab additional
+    :alt: Rendered Form single_staypoint Wave Tab additional
 
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_scheduled#additional
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#additional
 
 .. raw:: html
 

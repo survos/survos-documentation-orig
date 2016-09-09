@@ -41,3 +41,9 @@ Data Collected
 Technical Notes
 -------------------------
 Code: turk_opinion
+
+
+.. toctree::
+    :maxdepth: 2
+
+    survey-types/turk_participants

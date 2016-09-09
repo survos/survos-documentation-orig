@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _desktop_field_type:
+..  _stay_point_notes_type:
 
-Desktop Field Tasks Surveys
+Map Notes Surveys
 =======================================
-Tasks Without In-person Visit
+Questions about an staypoint
 
 Basic Workflow
 -------------------------
-* Configure a Desktop Field Tasks Survey
+* Configure a Map Notes Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+stay_point_notes Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a desktop_field Wave
+Go through each screen of the Wave Form or Wizard for a stay_point_notes Wave
 
-Basic
+stay_point_notes Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the stay_point_notes Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form desktop_field Wave Tab basic
+    :alt: Rendered Form stay_point_notes Wave Tab basic
 
-This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#basic
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new
     </div>
 
 
-Enrollment
+stay_point_notes Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the stay_point_notes Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form desktop_field Wave Tab enrollment
+    :alt: Rendered Form stay_point_notes Wave Tab enrollment
 
-This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#enrollment
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new
     </div>
 
 
-Workflow
+stay_point_notes Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the stay_point_notes Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form desktop_field Wave Tab workflow
+    :alt: Rendered Form stay_point_notes Wave Tab workflow
 
-This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#workflow
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new
     </div>
 
 
-Extra
+stay_point_notes Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the stay_point_notes Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=stay_point_notes+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form desktop_field Wave Tab additional
+    :alt: Rendered Form stay_point_notes Wave Tab additional
 
-This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#additional
+This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_point_notes#additional
 
 .. raw:: html
 

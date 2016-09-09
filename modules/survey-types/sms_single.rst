@@ -1,14 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-..  _single_staypoint_type:
+..  _sms_single_type:
 
-Create staypoint Surveys
+One-time SMS Surveys
 =======================================
-Geographic Boundary plus metadata
+Welcome message, Phone verification code
 
 Basic Workflow
 -------------------------
-* Configure a Create staypoint Survey
+* Configure a One-time SMS Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -20,27 +20,24 @@ Typical Deployment Configuration
 
 * 3x/day for 14 days, randomly between participant wake time...
 
-Wave Configuration
+sms_single Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a single_staypoint Wave
+Go through each screen of the Wave Form or Wizard for a sms_single Wave
 
-Basic
+sms_single Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `basic Tab in the sms_single Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic>`_.
 
-These are the fields in tab basic.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#basic
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+basic
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+basic
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form single_staypoint Wave Tab basic
+    :alt: Rendered Form sms_single Wave Tab basic
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#basic
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic
 
 .. raw:: html
 
@@ -114,22 +111,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Enrollment
+sms_single Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `enrollment Tab in the sms_single Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment>`_.
 
-These are the fields in tab enrollment.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#enrollment
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+enrollment
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+enrollment
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form single_staypoint Wave Tab enrollment
+    :alt: Rendered Form sms_single Wave Tab enrollment
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#enrollment
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment
 
 .. raw:: html
 
@@ -173,22 +167,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Workflow
+sms_single Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `workflow Tab in the sms_single Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow>`_.
 
-These are the fields in tab workflow.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#workflow
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+workflow
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+workflow
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form single_staypoint Wave Tab workflow
+    :alt: Rendered Form sms_single Wave Tab workflow
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#workflow
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow
 
 .. raw:: html
 
@@ -241,22 +232,19 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-Extra
+sms_single Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+This is the form snippet from `additional Tab in the sms_single Wave
+<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#additional>`_.
 
-These are the fields in tab additional.   This is what it should look like: Taburl_.
-
-.. _Taburl: http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#additional
-
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+additional
+.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+additional
     :height: 400
     :width: 600
     :scale: 50
-    :alt: Rendered Form single_staypoint Wave Tab additional
+    :alt: Rendered Form sms_single Wave Tab additional
 
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#additional
+This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#additional
 
 .. raw:: html
 

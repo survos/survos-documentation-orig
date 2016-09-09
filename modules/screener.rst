@@ -39,3 +39,10 @@ Data Collected
 Technical Notes
 -------------------------
 Code: screener
+
+
+.. toctree::
+    :maxdepth: 2
+
+    survey-types/participant_screener
+    survey-types/turk_screener
