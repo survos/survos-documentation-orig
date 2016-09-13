@@ -29,15 +29,10 @@ desktop_field Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the desktop_field Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/desktop_field#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/desktop_field_basic.png
     :alt: Rendered Form desktop_field Wave Tab basic
-
-This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#basic
 
 .. raw:: html
 
@@ -115,15 +110,10 @@ desktop_field Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the desktop_field Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/desktop_field#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/desktop_field_enrollment.png
     :alt: Rendered Form desktop_field Wave Tab enrollment
-
-This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#enrollment
 
 .. raw:: html
 
@@ -171,15 +161,10 @@ desktop_field Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the desktop_field Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/desktop_field#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/desktop_field_workflow.png
     :alt: Rendered Form desktop_field Wave Tab workflow
-
-This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#workflow
 
 .. raw:: html
 
@@ -227,42 +212,6 @@ This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new
                 <td>
                     Automatically update  data   with results                </td>
             </tr>
-                    </tbody>
-    </table>
-    </div>
-
-
-desktop_field Extra
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This is the form snippet from `additional Tab in the desktop_field Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#additional>`_.
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=desktop_field+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
-    :alt: Rendered Form desktop_field Wave Tab additional
-
-This image will be generated from http://field.l.stagingsurvos.com/wave_repo/new?surveyType=desktop_field#additional
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-        <colgroup>
-        <col width="15%">
-        <col width="25%">
-        <col width="60%">
-        </colgroup>
-        <thead valign="bottom">
-            <tr class="row-odd">
-                <th class="head">Field</th>
-                <th class="head">Info</th>
-                <th class="head">Description</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
                     </tbody>
     </table>
     </div>

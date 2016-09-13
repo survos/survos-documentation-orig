@@ -29,15 +29,10 @@ unassociated_data Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the unassociated_data Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/unassociated_data#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/unassociated_data_basic.png
     :alt: Rendered Form unassociated_data Wave Tab basic
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#basic
 
 .. raw:: html
 
@@ -115,15 +110,10 @@ unassociated_data Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the unassociated_data Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/unassociated_data#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/unassociated_data_enrollment.png
     :alt: Rendered Form unassociated_data Wave Tab enrollment
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#enrollment
 
 .. raw:: html
 
@@ -144,6 +134,16 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
         <tbody valign="top">
                                     <tr class="row-odd">
                 <th class="head">
+                    Auto-Schedule                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Schedule Assignment Immediately                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Auto-Enroll                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -152,7 +152,7 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
-                                    <tr class="row-even">
+                                    <tr class="row-odd">
                 <th class="head">
                     Notification                </th>
                 <td>
@@ -171,15 +171,10 @@ unassociated_data Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the unassociated_data Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/unassociated_data#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/unassociated_data_workflow.png
     :alt: Rendered Form unassociated_data Wave Tab workflow
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#workflow
 
 .. raw:: html
 
@@ -227,42 +222,6 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
                 <td>
                     Automatically update  data   with results                </td>
             </tr>
-                    </tbody>
-    </table>
-    </div>
-
-
-unassociated_data Extra
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This is the form snippet from `additional Tab in the unassociated_data Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#additional>`_.
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=unassociated_data+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
-    :alt: Rendered Form unassociated_data Wave Tab additional
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=unassociated_data#additional
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-        <colgroup>
-        <col width="15%">
-        <col width="25%">
-        <col width="60%">
-        </colgroup>
-        <thead valign="bottom">
-            <tr class="row-odd">
-                <th class="head">Field</th>
-                <th class="head">Info</th>
-                <th class="head">Description</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
                     </tbody>
     </table>
     </div>

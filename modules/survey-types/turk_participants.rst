@@ -29,15 +29,10 @@ turk_participants Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the turk_participants Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/turk_participants#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_participants+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_basic.png
     :alt: Rendered Form turk_participants Wave Tab basic
-
-This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#basic
 
 .. raw:: html
 
@@ -115,15 +110,10 @@ turk_participants Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the turk_participants Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/turk_participants#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_participants+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_enrollment.png
     :alt: Rendered Form turk_participants Wave Tab enrollment
-
-This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#enrollment
 
 .. raw:: html
 
@@ -171,15 +161,10 @@ turk_participants Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the turk_participants Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/turk_participants#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_participants+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_workflow.png
     :alt: Rendered Form turk_participants Wave Tab workflow
-
-This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#workflow
 
 .. raw:: html
 
@@ -247,34 +232,19 @@ This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_r
                 <td>
                     Auto-publish tasks to Turk/Import when queued                </td>
             </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    Auto Populate Data                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Automatically update  data   with results                </td>
-            </tr>
                     </tbody>
     </table>
     </div>
 
 
-turk_participants Extra
+turk_participants Task
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the form snippet from `additional Tab in the turk_participants Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#additional>`_.
+This is the form snippet from `task Tab in the turk_participants Wave
+<http://behattest.stagingsurvos.com/waves/dummy/turk_participants#task>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_participants+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
-    :alt: Rendered Form turk_participants Wave Tab additional
-
-This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_repo/new?surveyType=turk_participants#additional
+.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_task.png
+    :alt: Rendered Form turk_participants Wave Tab task
 
 .. raw:: html
 
@@ -293,6 +263,168 @@ This image will be generated from http://turk_opinion.l.stagingsurvos.com/wave_r
             </tr>
         </thead>
         <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Task Title                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Seen by Workers                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Description                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Seen by Workers                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Deployment Keywords                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Keywords make searching for jobs easier                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Reward                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    in USD, can be formula                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Repetitions                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Number of Repetitions (aka raters)                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    HIT Lifeftime                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    e.g. 1d 3h 5m for 1 day, 3 hour and 5 minutes                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Time Worker has to complete assignment                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Auto Approval                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Amount of time before Assignment is automatically approved "
+                            ."(faster if consensus reached)                </td>
+            </tr>
+                    </tbody>
+    </table>
+    </div>
+
+
+turk_participants Qualifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This is the form snippet from `qualifications Tab in the turk_participants Wave
+<http://behattest.stagingsurvos.com/waves/dummy/turk_participants#qualifications>`_.
+
+.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_qualifications.png
+    :alt: Rendered Form turk_participants Wave Tab qualifications
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="60%">
+        </colgroup>
+        <thead valign="bottom">
+            <tr class="row-odd">
+                <th class="head">Field</th>
+                <th class="head">Info</th>
+                <th class="head">Description</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Use Qualifications                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Restrict tasks to qualified people                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Locale                </th>
+                <td>
+                                            <b>Type</b>: string(32)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    MinApprovalRate                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    MinApprovedHits                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Qualifications                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    SET THESE IN JOB! <strong>Valid qualification types are: </strong> . <br><strong>Valid operators are: </strong>                 </td>
+            </tr>
                     </tbody>
     </table>
     </div>

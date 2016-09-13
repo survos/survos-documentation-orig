@@ -29,15 +29,10 @@ ivr_scheduled Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the ivr_scheduled Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/ivr_scheduled#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_basic.png
     :alt: Rendered Form ivr_scheduled Wave Tab basic
-
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#basic
 
 .. raw:: html
 
@@ -88,6 +83,66 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
             </tr>
                                     <tr class="row-even">
                 <th class="head">
+                    duration                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Number of days a participant is enrolled                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Schedule                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    help_block_schedule_configuration                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Scheduling Conditions                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Only schedule when these conditions are met, e.g. dayOfWeek in ['Mon','Wed','Fri'] and dayOfMonth != 22
+                                Fields: dayOfWeek (.e.g Mon), month (e.g. Jan), dayOfMonth (e.g. 15)                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Start Date                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    Starting date of the protocol, when surveys are scheduled / accepted.                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Relative To Start Date                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    +1 for starting the next day                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Specific Start Date                </th>
+                <td>
+                                            <b>Type</b>: datetime                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Only if type is set to specific, otherwise calculated                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Notes                </th>
                 <td>
                                             <b>Type</b>: text                            <br>
@@ -115,15 +170,10 @@ ivr_scheduled Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the ivr_scheduled Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/ivr_scheduled#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_enrollment.png
     :alt: Rendered Form ivr_scheduled Wave Tab enrollment
-
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#enrollment
 
 .. raw:: html
 
@@ -144,6 +194,16 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
         <tbody valign="top">
                                     <tr class="row-odd">
                 <th class="head">
+                    Auto-Schedule                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    When a member registers via text or the web, schedule their assignments immediately                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Auto-Enroll                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -152,7 +212,7 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
-                                    <tr class="row-even">
+                                    <tr class="row-odd">
                 <th class="head">
                     Notification                </th>
                 <td>
@@ -171,15 +231,10 @@ ivr_scheduled Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the ivr_scheduled Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/ivr_scheduled#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_workflow.png
     :alt: Rendered Form ivr_scheduled Wave Tab workflow
-
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#workflow
 
 .. raw:: html
 
@@ -236,15 +291,10 @@ ivr_scheduled Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `additional Tab in the ivr_scheduled Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#additional>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/ivr_scheduled#additional>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=ivr_scheduled+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_additional.png
     :alt: Rendered Form ivr_scheduled Wave Tab additional
-
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=ivr_scheduled#additional
 
 .. raw:: html
 
@@ -263,6 +313,33 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
             </tr>
         </thead>
         <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Disable Auto-enroll                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    Disable autoenroll for previous waves                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Purge Schedule                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    Purge all scheduled surveys for other waves in this survey                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    De-activate Waves                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    De-active previous waves in this survey                </td>
+            </tr>
                     </tbody>
     </table>
     </div>

@@ -29,15 +29,10 @@ app_self_report Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the app_self_report Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/app_self_report#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/app_self_report_basic.png
     :alt: Rendered Form app_self_report Wave Tab basic
-
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#basic
 
 .. raw:: html
 
@@ -88,6 +83,16 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
             </tr>
                                     <tr class="row-even">
                 <th class="head">
+                    duration                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Number of days a participant is enrolled                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
                     Notes                </th>
                 <td>
                                             <b>Type</b>: text                            <br>
@@ -96,7 +101,7 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
                 <td>
                                     </td>
             </tr>
-                                    <tr class="row-odd">
+                                    <tr class="row-even">
                 <th class="head">
                     Is Active                </th>
                 <td>
@@ -115,15 +120,10 @@ app_self_report Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the app_self_report Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/app_self_report#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/app_self_report_enrollment.png
     :alt: Rendered Form app_self_report Wave Tab enrollment
-
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#enrollment
 
 .. raw:: html
 
@@ -171,15 +171,10 @@ app_self_report Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the app_self_report Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/app_self_report#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/app_self_report_workflow.png
     :alt: Rendered Form app_self_report Wave Tab workflow
-
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#workflow
 
 .. raw:: html
 
@@ -236,15 +231,10 @@ app_self_report Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `additional Tab in the app_self_report Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#additional>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/app_self_report#additional>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=app_self_report+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/app_self_report_additional.png
     :alt: Rendered Form app_self_report Wave Tab additional
-
-This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/new?surveyType=app_self_report#additional
 
 .. raw:: html
 
@@ -263,6 +253,33 @@ This image will be generated from http://ongoing.l.stagingsurvos.com/wave_repo/n
             </tr>
         </thead>
         <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Disable Auto-enroll                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    Disable autoenroll for previous waves                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Purge Schedule                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    Purge all scheduled surveys for other waves in this survey                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    De-activate Waves                </th>
+                <td>
+                                            <b>Type</b>: mixed
+                                    </td>
+                <td>
+                    De-active previous waves in this survey                </td>
+            </tr>
                     </tbody>
     </table>
     </div>

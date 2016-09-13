@@ -29,15 +29,10 @@ participant_screener Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the participant_screener Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/participant_screener#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=participant_screener+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/participant_screener_basic.png
     :alt: Rendered Form participant_screener Wave Tab basic
-
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#basic
 
 .. raw:: html
 
@@ -115,15 +110,10 @@ participant_screener Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the participant_screener Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/participant_screener#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=participant_screener+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/participant_screener_enrollment.png
     :alt: Rendered Form participant_screener Wave Tab enrollment
-
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#enrollment
 
 .. raw:: html
 
@@ -171,15 +161,10 @@ participant_screener Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the participant_screener Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/participant_screener#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=participant_screener+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/participant_screener_workflow.png
     :alt: Rendered Form participant_screener Wave Tab workflow
-
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#workflow
 
 .. raw:: html
 
@@ -247,42 +232,6 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
                 <td>
                     Automatically update member data   with results                </td>
             </tr>
-                    </tbody>
-    </table>
-    </div>
-
-
-participant_screener Extra
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This is the form snippet from `additional Tab in the participant_screener Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#additional>`_.
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=participant_screener+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
-    :alt: Rendered Form participant_screener Wave Tab additional
-
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=participant_screener#additional
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-        <colgroup>
-        <col width="15%">
-        <col width="25%">
-        <col width="60%">
-        </colgroup>
-        <thead valign="bottom">
-            <tr class="row-odd">
-                <th class="head">Field</th>
-                <th class="head">Info</th>
-                <th class="head">Description</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
                     </tbody>
     </table>
     </div>

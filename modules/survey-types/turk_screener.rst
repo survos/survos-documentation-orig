@@ -29,15 +29,10 @@ turk_screener Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the turk_screener Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/turk_screener#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/turk_screener_basic.png
     :alt: Rendered Form turk_screener Wave Tab basic
-
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#basic
 
 .. raw:: html
 
@@ -115,15 +110,10 @@ turk_screener Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the turk_screener Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/turk_screener#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/turk_screener_enrollment.png
     :alt: Rendered Form turk_screener Wave Tab enrollment
-
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#enrollment
 
 .. raw:: html
 
@@ -171,15 +161,10 @@ turk_screener Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the turk_screener Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/turk_screener#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/turk_screener_workflow.png
     :alt: Rendered Form turk_screener Wave Tab workflow
-
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#workflow
 
 .. raw:: html
 
@@ -239,6 +224,16 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
+                    Turk Deployment                </th>
+                <td>
+                                            <b>Type</b>: string(12)                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Auto Populate Data                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -252,19 +247,14 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
     </div>
 
 
-turk_screener Extra
+turk_screener Qualifications
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the form snippet from `additional Tab in the turk_screener Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#additional>`_.
+This is the form snippet from `qualifications Tab in the turk_screener Wave
+<http://behattest.stagingsurvos.com/waves/dummy/turk_screener#qualifications>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=turk_screener+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
-    :alt: Rendered Form turk_screener Wave Tab additional
-
-This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/new?surveyType=turk_screener#additional
+.. image::  https://s3.amazonaws.com/survos-documentation/turk_screener_qualifications.png
+    :alt: Rendered Form turk_screener Wave Tab qualifications
 
 .. raw:: html
 
@@ -283,6 +273,96 @@ This image will be generated from http://screener.l.stagingsurvos.com/wave_repo/
             </tr>
         </thead>
         <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Title                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Seen by Turkers                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Description                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Seen by Turkers                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Qualification Code                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    will be prefixed by project code, then used in Qualification Type Text                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Test Duration                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Time to complete (in seconds)                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Retry Delay                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Time before they can take qualification again (in seconds)                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Keywords                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    QT Keywords cannot be modified after publishing                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Post-Processing                </th>
+                <td>
+                                            <b>Type</b>: string(64)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Post-processing Method, system administrators only                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Automatically Grant -- NO TEST                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Auto Grant Value                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    value to assign if automatically granted/approved and not isScored                </td>
+            </tr>
                     </tbody>
     </table>
     </div>

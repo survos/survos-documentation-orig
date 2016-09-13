@@ -29,15 +29,10 @@ stay_event_notes Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the stay_event_notes Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/stay_event_notes#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/stay_event_notes_basic.png
     :alt: Rendered Form stay_event_notes Wave Tab basic
-
-This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#basic
 
 .. raw:: html
 
@@ -115,15 +110,10 @@ stay_event_notes Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the stay_event_notes Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/stay_event_notes#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/stay_event_notes_enrollment.png
     :alt: Rendered Form stay_event_notes Wave Tab enrollment
-
-This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#enrollment
 
 .. raw:: html
 
@@ -144,6 +134,16 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
         <tbody valign="top">
                                     <tr class="row-odd">
                 <th class="head">
+                    Auto-Schedule                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Schedule Stay Surveys Immediately                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Auto-Enroll                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -152,7 +152,7 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
-                                    <tr class="row-even">
+                                    <tr class="row-odd">
                 <th class="head">
                     Notification                </th>
                 <td>
@@ -171,15 +171,10 @@ stay_event_notes Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the stay_event_notes Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/stay_event_notes#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/stay_event_notes_workflow.png
     :alt: Rendered Form stay_event_notes Wave Tab workflow
-
-This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#workflow
 
 .. raw:: html
 
@@ -219,6 +214,26 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
+                    Auto-Queue                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Queuing disabled for data-less tasks                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Auto Stop                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Stop queuing when queue is empty  (recommended unless data streams in)                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
                     Auto Populate Data                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -227,42 +242,6 @@ This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?
                 <td>
                     Automatically update  data   with results                </td>
             </tr>
-                    </tbody>
-    </table>
-    </div>
-
-
-stay_event_notes Extra
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This is the form snippet from `additional Tab in the stay_event_notes Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#additional>`_.
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=stay_event_notes+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
-    :alt: Rendered Form stay_event_notes Wave Tab additional
-
-This image will be generated from http://stay.l.stagingsurvos.com/wave_repo/new?surveyType=stay_event_notes#additional
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-        <colgroup>
-        <col width="15%">
-        <col width="25%">
-        <col width="60%">
-        </colgroup>
-        <thead valign="bottom">
-            <tr class="row-odd">
-                <th class="head">Field</th>
-                <th class="head">Info</th>
-                <th class="head">Description</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
                     </tbody>
     </table>
     </div>

@@ -29,15 +29,10 @@ single_staypoint Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the single_staypoint Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/single_staypoint#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/single_staypoint_basic.png
     :alt: Rendered Form single_staypoint Wave Tab basic
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#basic
 
 .. raw:: html
 
@@ -115,15 +110,10 @@ single_staypoint Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the single_staypoint Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/single_staypoint#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/single_staypoint_enrollment.png
     :alt: Rendered Form single_staypoint Wave Tab enrollment
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#enrollment
 
 .. raw:: html
 
@@ -144,6 +134,16 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
         <tbody valign="top">
                                     <tr class="row-odd">
                 <th class="head">
+                    Auto-Schedule                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Schedule Assignment Immediately                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Auto-Enroll                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -152,7 +152,7 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
-                                    <tr class="row-even">
+                                    <tr class="row-odd">
                 <th class="head">
                     Notification                </th>
                 <td>
@@ -171,15 +171,10 @@ single_staypoint Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the single_staypoint Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/single_staypoint#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/single_staypoint_workflow.png
     :alt: Rendered Form single_staypoint Wave Tab workflow
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#workflow
 
 .. raw:: html
 
@@ -227,42 +222,6 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
                 <td>
                     Automatically update  data   with results                </td>
             </tr>
-                    </tbody>
-    </table>
-    </div>
-
-
-single_staypoint Extra
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This is the form snippet from `additional Tab in the single_staypoint Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#additional>`_.
-
-.. image::  http://dummyimage.com/600x400/000/fff&text=single_staypoint+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
-    :alt: Rendered Form single_staypoint Wave Tab additional
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=single_staypoint#additional
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-        <colgroup>
-        <col width="15%">
-        <col width="25%">
-        <col width="60%">
-        </colgroup>
-        <thead valign="bottom">
-            <tr class="row-odd">
-                <th class="head">Field</th>
-                <th class="head">Info</th>
-                <th class="head">Description</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
                     </tbody>
     </table>
     </div>

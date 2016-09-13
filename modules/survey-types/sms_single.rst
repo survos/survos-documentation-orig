@@ -29,15 +29,10 @@ sms_single Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `basic Tab in the sms_single Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/sms_single#basic>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+basic
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/sms_single_basic.png
     :alt: Rendered Form sms_single Wave Tab basic
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#basic
 
 .. raw:: html
 
@@ -115,15 +110,10 @@ sms_single Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `enrollment Tab in the sms_single Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/sms_single#enrollment>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+enrollment
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/sms_single_enrollment.png
     :alt: Rendered Form sms_single Wave Tab enrollment
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#enrollment
 
 .. raw:: html
 
@@ -144,6 +134,16 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
         <tbody valign="top">
                                     <tr class="row-odd">
                 <th class="head">
+                    Auto-Schedule                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Schedule Assignment Immediately                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
                     Auto-Enroll                </th>
                 <td>
                                             <b>Type</b>: boolean                            <br>
@@ -152,7 +152,7 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
                 <td>
                     When a member registers via text or the web, automatically enroll them in this wave                </td>
             </tr>
-                                    <tr class="row-even">
+                                    <tr class="row-odd">
                 <th class="head">
                     Notification                </th>
                 <td>
@@ -161,6 +161,26 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
                                                                                     </td>
                 <td>
                     Notify Designated Administrators with Survey Results                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Welcome                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Send a welcome text message upon enrollment                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Message                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Welcome Message                </td>
             </tr>
                     </tbody>
     </table>
@@ -171,15 +191,10 @@ sms_single Workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the form snippet from `workflow Tab in the sms_single Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow>`_.
+<http://behattest.stagingsurvos.com/waves/dummy/sms_single#workflow>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+workflow
-    :height: 400
-    :width: 600
-    :scale: 50
+.. image::  https://s3.amazonaws.com/survos-documentation/sms_single_workflow.png
     :alt: Rendered Form sms_single Wave Tab workflow
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#workflow
 
 .. raw:: html
 
@@ -232,19 +247,14 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
     </div>
 
 
-sms_single Extra
+sms_single Expiration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the form snippet from `additional Tab in the sms_single Wave
-<http://survos.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#additional>`_.
+This is the form snippet from `expiration Tab in the sms_single Wave
+<http://behattest.stagingsurvos.com/waves/dummy/sms_single#expiration>`_.
 
-.. image::  http://dummyimage.com/600x400/000/fff&text=sms_single+Wave+Tab+additional
-    :height: 400
-    :width: 600
-    :scale: 50
-    :alt: Rendered Form sms_single Wave Tab additional
-
-This image will be generated from http://single.l.stagingsurvos.com/wave_repo/new?surveyType=sms_single#additional
+.. image::  https://s3.amazonaws.com/survos-documentation/sms_single_expiration.png
+    :alt: Rendered Form sms_single Wave Tab expiration
 
 .. raw:: html
 
@@ -263,6 +273,96 @@ This image will be generated from http://single.l.stagingsurvos.com/wave_repo/ne
             </tr>
         </thead>
         <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Minutes before expiration                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Minutes since initial prompt before expiring                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Number of Reminders before Expiration                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    If 0, no reminders                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Maximum survey length                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: Yes<br>
+                                                                                    </td>
+                <td>
+                    Time since first response (in minutes) before marking as Abandoned                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Warning Frequency                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Once responding, minutes between warnings                </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Minimum Time Between Same Surveys                </th>
+                <td>
+                                            <b>Type</b>: integer                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Delay surveys if necessary by this amount (in minutes)                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    End Message                </th>
+                <td>
+                                            <b>Type</b>: string(150)                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Reminder Message                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Expiration Message                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
+                                    <tr class="row-odd">
+                <th class="head">
+                    Warning Message                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                                    </td>
+            </tr>
                     </tbody>
     </table>
     </div>
