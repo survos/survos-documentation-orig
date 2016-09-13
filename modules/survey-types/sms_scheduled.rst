@@ -31,8 +31,9 @@ sms_scheduled Basic
 This is the form snippet from `basic Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_basic.png
-    :alt: Rendered Form sms_scheduled Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_basic.png
+
+   Rendered Form sms_scheduled Wave Tab basic
 
 .. raw:: html
 
@@ -172,8 +173,9 @@ sms_scheduled Enrollment
 This is the form snippet from `enrollment Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_enrollment.png
-    :alt: Rendered Form sms_scheduled Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_enrollment.png
+
+   Rendered Form sms_scheduled Wave Tab enrollment
 
 .. raw:: html
 
@@ -253,8 +255,9 @@ sms_scheduled Workflow
 This is the form snippet from `workflow Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_workflow.png
-    :alt: Rendered Form sms_scheduled Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_workflow.png
+
+   Rendered Form sms_scheduled Wave Tab workflow
 
 .. raw:: html
 
@@ -313,8 +316,9 @@ sms_scheduled Expiration
 This is the form snippet from `expiration Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#expiration>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_expiration.png
-    :alt: Rendered Form sms_scheduled Wave Tab expiration
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_expiration.png
+
+   Rendered Form sms_scheduled Wave Tab expiration
 
 .. raw:: html
 
@@ -434,8 +438,9 @@ sms_scheduled Extra
 This is the form snippet from `additional Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#additional>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_additional.png
-    :alt: Rendered Form sms_scheduled Wave Tab additional
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_additional.png
+
+   Rendered Form sms_scheduled Wave Tab additional
 
 .. raw:: html
 

@@ -31,8 +31,9 @@ participant_screener Basic
 This is the form snippet from `basic Tab in the participant_screener Wave
 <http://behattest.stagingsurvos.com/waves/dummy/participant_screener#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/participant_screener_basic.png
-    :alt: Rendered Form participant_screener Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/participant_screener_basic.png
+
+   Rendered Form participant_screener Wave Tab basic
 
 .. raw:: html
 
@@ -112,8 +113,9 @@ participant_screener Enrollment
 This is the form snippet from `enrollment Tab in the participant_screener Wave
 <http://behattest.stagingsurvos.com/waves/dummy/participant_screener#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/participant_screener_enrollment.png
-    :alt: Rendered Form participant_screener Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/participant_screener_enrollment.png
+
+   Rendered Form participant_screener Wave Tab enrollment
 
 .. raw:: html
 
@@ -163,8 +165,9 @@ participant_screener Workflow
 This is the form snippet from `workflow Tab in the participant_screener Wave
 <http://behattest.stagingsurvos.com/waves/dummy/participant_screener#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/participant_screener_workflow.png
-    :alt: Rendered Form participant_screener Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/participant_screener_workflow.png
+
+   Rendered Form participant_screener Wave Tab workflow
 
 .. raw:: html
 

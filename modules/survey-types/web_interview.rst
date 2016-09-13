@@ -31,8 +31,9 @@ web_interview Basic
 This is the form snippet from `basic Tab in the web_interview Wave
 <http://behattest.stagingsurvos.com/waves/dummy/web_interview#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/web_interview_basic.png
-    :alt: Rendered Form web_interview Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/web_interview_basic.png
+
+   Rendered Form web_interview Wave Tab basic
 
 .. raw:: html
 
@@ -112,8 +113,9 @@ web_interview Enrollment
 This is the form snippet from `enrollment Tab in the web_interview Wave
 <http://behattest.stagingsurvos.com/waves/dummy/web_interview#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/web_interview_enrollment.png
-    :alt: Rendered Form web_interview Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/web_interview_enrollment.png
+
+   Rendered Form web_interview Wave Tab enrollment
 
 .. raw:: html
 
@@ -173,8 +175,9 @@ web_interview Workflow
 This is the form snippet from `workflow Tab in the web_interview Wave
 <http://behattest.stagingsurvos.com/waves/dummy/web_interview#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/web_interview_workflow.png
-    :alt: Rendered Form web_interview Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/web_interview_workflow.png
+
+   Rendered Form web_interview Wave Tab workflow
 
 .. raw:: html
 

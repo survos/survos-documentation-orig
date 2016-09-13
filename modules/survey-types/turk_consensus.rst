@@ -31,8 +31,9 @@ turk_consensus Basic
 This is the form snippet from `basic Tab in the turk_consensus Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_consensus#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_consensus_basic.png
-    :alt: Rendered Form turk_consensus Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_consensus_basic.png
+
+   Rendered Form turk_consensus Wave Tab basic
 
 .. raw:: html
 
@@ -112,8 +113,9 @@ turk_consensus Enrollment
 This is the form snippet from `enrollment Tab in the turk_consensus Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_consensus#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_consensus_enrollment.png
-    :alt: Rendered Form turk_consensus Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_consensus_enrollment.png
+
+   Rendered Form turk_consensus Wave Tab enrollment
 
 .. raw:: html
 
@@ -163,8 +165,9 @@ turk_consensus Workflow
 This is the form snippet from `workflow Tab in the turk_consensus Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_consensus#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_consensus_workflow.png
-    :alt: Rendered Form turk_consensus Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_consensus_workflow.png
+
+   Rendered Form turk_consensus Wave Tab workflow
 
 .. raw:: html
 

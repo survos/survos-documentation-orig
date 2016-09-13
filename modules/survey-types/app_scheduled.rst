@@ -31,8 +31,9 @@ app_scheduled Basic
 This is the form snippet from `basic Tab in the app_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/app_scheduled#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/app_scheduled_basic.png
-    :alt: Rendered Form app_scheduled Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/app_scheduled_basic.png
+
+   Rendered Form app_scheduled Wave Tab basic
 
 .. raw:: html
 
@@ -172,8 +173,9 @@ app_scheduled Enrollment
 This is the form snippet from `enrollment Tab in the app_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/app_scheduled#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/app_scheduled_enrollment.png
-    :alt: Rendered Form app_scheduled Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/app_scheduled_enrollment.png
+
+   Rendered Form app_scheduled Wave Tab enrollment
 
 .. raw:: html
 
@@ -233,8 +235,9 @@ app_scheduled Workflow
 This is the form snippet from `workflow Tab in the app_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/app_scheduled#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/app_scheduled_workflow.png
-    :alt: Rendered Form app_scheduled Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/app_scheduled_workflow.png
+
+   Rendered Form app_scheduled Wave Tab workflow
 
 .. raw:: html
 
@@ -293,8 +296,9 @@ app_scheduled Extra
 This is the form snippet from `additional Tab in the app_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/app_scheduled#additional>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/app_scheduled_additional.png
-    :alt: Rendered Form app_scheduled Wave Tab additional
+.. figure::  https://s3.amazonaws.com/survos-documentation/app_scheduled_additional.png
+
+   Rendered Form app_scheduled Wave Tab additional
 
 .. raw:: html
 

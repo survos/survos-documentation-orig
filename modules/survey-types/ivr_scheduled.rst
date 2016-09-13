@@ -31,8 +31,9 @@ ivr_scheduled Basic
 This is the form snippet from `basic Tab in the ivr_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/ivr_scheduled#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_basic.png
-    :alt: Rendered Form ivr_scheduled Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_basic.png
+
+   Rendered Form ivr_scheduled Wave Tab basic
 
 .. raw:: html
 
@@ -172,8 +173,9 @@ ivr_scheduled Enrollment
 This is the form snippet from `enrollment Tab in the ivr_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/ivr_scheduled#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_enrollment.png
-    :alt: Rendered Form ivr_scheduled Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_enrollment.png
+
+   Rendered Form ivr_scheduled Wave Tab enrollment
 
 .. raw:: html
 
@@ -233,8 +235,9 @@ ivr_scheduled Workflow
 This is the form snippet from `workflow Tab in the ivr_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/ivr_scheduled#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_workflow.png
-    :alt: Rendered Form ivr_scheduled Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_workflow.png
+
+   Rendered Form ivr_scheduled Wave Tab workflow
 
 .. raw:: html
 
@@ -293,8 +296,9 @@ ivr_scheduled Extra
 This is the form snippet from `additional Tab in the ivr_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/ivr_scheduled#additional>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_additional.png
-    :alt: Rendered Form ivr_scheduled Wave Tab additional
+.. figure::  https://s3.amazonaws.com/survos-documentation/ivr_scheduled_additional.png
+
+   Rendered Form ivr_scheduled Wave Tab additional
 
 .. raw:: html
 

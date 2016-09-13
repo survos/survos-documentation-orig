@@ -31,8 +31,9 @@ turk_participants Basic
 This is the form snippet from `basic Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_basic.png
-    :alt: Rendered Form turk_participants Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_basic.png
+
+   Rendered Form turk_participants Wave Tab basic
 
 .. raw:: html
 
@@ -112,8 +113,9 @@ turk_participants Enrollment
 This is the form snippet from `enrollment Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_enrollment.png
-    :alt: Rendered Form turk_participants Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_enrollment.png
+
+   Rendered Form turk_participants Wave Tab enrollment
 
 .. raw:: html
 
@@ -163,8 +165,9 @@ turk_participants Workflow
 This is the form snippet from `workflow Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_workflow.png
-    :alt: Rendered Form turk_participants Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_workflow.png
+
+   Rendered Form turk_participants Wave Tab workflow
 
 .. raw:: html
 
@@ -243,8 +246,9 @@ turk_participants Task
 This is the form snippet from `task Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#task>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_task.png
-    :alt: Rendered Form turk_participants Wave Tab task
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_task.png
+
+   Rendered Form turk_participants Wave Tab task
 
 .. raw:: html
 
@@ -355,8 +359,9 @@ turk_participants Qualifications
 This is the form snippet from `qualifications Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#qualifications>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_participants_qualifications.png
-    :alt: Rendered Form turk_participants Wave Tab qualifications
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_qualifications.png
+
+   Rendered Form turk_participants Wave Tab qualifications
 
 .. raw:: html
 

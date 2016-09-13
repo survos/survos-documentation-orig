@@ -31,8 +31,9 @@ turk_screener Basic
 This is the form snippet from `basic Tab in the turk_screener Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_screener#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_screener_basic.png
-    :alt: Rendered Form turk_screener Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_screener_basic.png
+
+   Rendered Form turk_screener Wave Tab basic
 
 .. raw:: html
 
@@ -112,8 +113,9 @@ turk_screener Enrollment
 This is the form snippet from `enrollment Tab in the turk_screener Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_screener#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_screener_enrollment.png
-    :alt: Rendered Form turk_screener Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_screener_enrollment.png
+
+   Rendered Form turk_screener Wave Tab enrollment
 
 .. raw:: html
 
@@ -163,8 +165,9 @@ turk_screener Workflow
 This is the form snippet from `workflow Tab in the turk_screener Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_screener#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_screener_workflow.png
-    :alt: Rendered Form turk_screener Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_screener_workflow.png
+
+   Rendered Form turk_screener Wave Tab workflow
 
 .. raw:: html
 
@@ -253,8 +256,9 @@ turk_screener Qualifications
 This is the form snippet from `qualifications Tab in the turk_screener Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_screener#qualifications>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/turk_screener_qualifications.png
-    :alt: Rendered Form turk_screener Wave Tab qualifications
+.. figure::  https://s3.amazonaws.com/survos-documentation/turk_screener_qualifications.png
+
+   Rendered Form turk_screener Wave Tab qualifications
 
 .. raw:: html
 

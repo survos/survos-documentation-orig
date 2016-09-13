@@ -31,8 +31,9 @@ sms_self_report Basic
 This is the form snippet from `basic Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_self_report_basic.png
-    :alt: Rendered Form sms_self_report Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_basic.png
+
+   Rendered Form sms_self_report Wave Tab basic
 
 .. raw:: html
 
@@ -122,8 +123,9 @@ sms_self_report Enrollment
 This is the form snippet from `enrollment Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_self_report_enrollment.png
-    :alt: Rendered Form sms_self_report Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_enrollment.png
+
+   Rendered Form sms_self_report Wave Tab enrollment
 
 .. raw:: html
 
@@ -193,8 +195,9 @@ sms_self_report Workflow
 This is the form snippet from `workflow Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_self_report_workflow.png
-    :alt: Rendered Form sms_self_report Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_workflow.png
+
+   Rendered Form sms_self_report Wave Tab workflow
 
 .. raw:: html
 
@@ -253,8 +256,9 @@ sms_self_report Expiration
 This is the form snippet from `expiration Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#expiration>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_self_report_expiration.png
-    :alt: Rendered Form sms_self_report Wave Tab expiration
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_expiration.png
+
+   Rendered Form sms_self_report Wave Tab expiration
 
 .. raw:: html
 
@@ -374,8 +378,9 @@ sms_self_report Extra
 This is the form snippet from `additional Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#additional>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/sms_self_report_additional.png
-    :alt: Rendered Form sms_self_report Wave Tab additional
+.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_additional.png
+
+   Rendered Form sms_self_report Wave Tab additional
 
 .. raw:: html
 

@@ -1,0 +1,13 @@
+/*all figure are centered with a border and max width*/
+.figure {
+    border: 5px solid #888;
+    background-color:#fff;
+    padding:5px;
+    text-align: center;
+    display:inline-block;
+}
+
+.figure .caption {
+    margin: 0;
+    align-content: center;
+}

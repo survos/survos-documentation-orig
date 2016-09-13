@@ -31,8 +31,9 @@ ongoing_api Basic
 This is the form snippet from `basic Tab in the ongoing_api Wave
 <http://behattest.stagingsurvos.com/waves/dummy/ongoing_api#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/ongoing_api_basic.png
-    :alt: Rendered Form ongoing_api Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/ongoing_api_basic.png
+
+   Rendered Form ongoing_api Wave Tab basic
 
 .. raw:: html
 
@@ -172,8 +173,9 @@ ongoing_api Enrollment
 This is the form snippet from `enrollment Tab in the ongoing_api Wave
 <http://behattest.stagingsurvos.com/waves/dummy/ongoing_api#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/ongoing_api_enrollment.png
-    :alt: Rendered Form ongoing_api Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/ongoing_api_enrollment.png
+
+   Rendered Form ongoing_api Wave Tab enrollment
 
 .. raw:: html
 
@@ -233,8 +235,9 @@ ongoing_api Workflow
 This is the form snippet from `workflow Tab in the ongoing_api Wave
 <http://behattest.stagingsurvos.com/waves/dummy/ongoing_api#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/ongoing_api_workflow.png
-    :alt: Rendered Form ongoing_api Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/ongoing_api_workflow.png
+
+   Rendered Form ongoing_api Wave Tab workflow
 
 .. raw:: html
 
@@ -293,8 +296,9 @@ ongoing_api Extra
 This is the form snippet from `additional Tab in the ongoing_api Wave
 <http://behattest.stagingsurvos.com/waves/dummy/ongoing_api#additional>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/ongoing_api_additional.png
-    :alt: Rendered Form ongoing_api Wave Tab additional
+.. figure::  https://s3.amazonaws.com/survos-documentation/ongoing_api_additional.png
+
+   Rendered Form ongoing_api Wave Tab additional
 
 .. raw:: html
 

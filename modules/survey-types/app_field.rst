@@ -31,8 +31,9 @@ app_field Basic
 This is the form snippet from `basic Tab in the app_field Wave
 <http://behattest.stagingsurvos.com/waves/dummy/app_field#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/app_field_basic.png
-    :alt: Rendered Form app_field Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/app_field_basic.png
+
+   Rendered Form app_field Wave Tab basic
 
 .. raw:: html
 
@@ -112,8 +113,9 @@ app_field Enrollment
 This is the form snippet from `enrollment Tab in the app_field Wave
 <http://behattest.stagingsurvos.com/waves/dummy/app_field#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/app_field_enrollment.png
-    :alt: Rendered Form app_field Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/app_field_enrollment.png
+
+   Rendered Form app_field Wave Tab enrollment
 
 .. raw:: html
 
@@ -163,8 +165,9 @@ app_field Workflow
 This is the form snippet from `workflow Tab in the app_field Wave
 <http://behattest.stagingsurvos.com/waves/dummy/app_field#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/app_field_workflow.png
-    :alt: Rendered Form app_field Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/app_field_workflow.png
+
+   Rendered Form app_field Wave Tab workflow
 
 .. raw:: html
 

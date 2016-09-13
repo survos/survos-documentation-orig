@@ -31,8 +31,9 @@ single_image Basic
 This is the form snippet from `basic Tab in the single_image Wave
 <http://behattest.stagingsurvos.com/waves/dummy/single_image#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/single_image_basic.png
-    :alt: Rendered Form single_image Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/single_image_basic.png
+
+   Rendered Form single_image Wave Tab basic
 
 .. raw:: html
 
@@ -112,8 +113,9 @@ single_image Enrollment
 This is the form snippet from `enrollment Tab in the single_image Wave
 <http://behattest.stagingsurvos.com/waves/dummy/single_image#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/single_image_enrollment.png
-    :alt: Rendered Form single_image Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/single_image_enrollment.png
+
+   Rendered Form single_image Wave Tab enrollment
 
 .. raw:: html
 
@@ -173,8 +175,9 @@ single_image Workflow
 This is the form snippet from `workflow Tab in the single_image Wave
 <http://behattest.stagingsurvos.com/waves/dummy/single_image#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/single_image_workflow.png
-    :alt: Rendered Form single_image Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/single_image_workflow.png
+
+   Rendered Form single_image Wave Tab workflow
 
 .. raw:: html
 

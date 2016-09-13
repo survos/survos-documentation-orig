@@ -31,8 +31,9 @@ single_staypoint Basic
 This is the form snippet from `basic Tab in the single_staypoint Wave
 <http://behattest.stagingsurvos.com/waves/dummy/single_staypoint#basic>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/single_staypoint_basic.png
-    :alt: Rendered Form single_staypoint Wave Tab basic
+.. figure::  https://s3.amazonaws.com/survos-documentation/single_staypoint_basic.png
+
+   Rendered Form single_staypoint Wave Tab basic
 
 .. raw:: html
 
@@ -112,8 +113,9 @@ single_staypoint Enrollment
 This is the form snippet from `enrollment Tab in the single_staypoint Wave
 <http://behattest.stagingsurvos.com/waves/dummy/single_staypoint#enrollment>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/single_staypoint_enrollment.png
-    :alt: Rendered Form single_staypoint Wave Tab enrollment
+.. figure::  https://s3.amazonaws.com/survos-documentation/single_staypoint_enrollment.png
+
+   Rendered Form single_staypoint Wave Tab enrollment
 
 .. raw:: html
 
@@ -173,8 +175,9 @@ single_staypoint Workflow
 This is the form snippet from `workflow Tab in the single_staypoint Wave
 <http://behattest.stagingsurvos.com/waves/dummy/single_staypoint#workflow>`_.
 
-.. image::  https://s3.amazonaws.com/survos-documentation/single_staypoint_workflow.png
-    :alt: Rendered Form single_staypoint Wave Tab workflow
+.. figure::  https://s3.amazonaws.com/survos-documentation/single_staypoint_workflow.png
+
+   Rendered Form single_staypoint Wave Tab workflow
 
 .. raw:: html
 
