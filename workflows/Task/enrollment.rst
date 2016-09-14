@@ -1,8 +1,5 @@
-Workflow enrollment in Task
-=========================================================
-
-Task States
--------------------------------------
+enrollment in AppBundle\Entity\Member
+===============================
 
 * waiting
 * participating
@@ -16,8 +13,6 @@ Task States
 * complete
 * failed
 
-Task Transitions
-----------------------------------------
 #. dismiss
 #. approve
 #. complete
@@ -26,3 +21,4 @@ Task Transitions
 #. participant_quits
 #. admin_dismisses
 
+DIAGRAM HERE

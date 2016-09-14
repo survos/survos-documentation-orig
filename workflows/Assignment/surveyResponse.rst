@@ -1,8 +1,5 @@
-Workflow surveyResponse in Assignment
-=========================================================
-
-Assignment States
--------------------------------------
+surveyResponse in AppBundle\Entity\Member
+===============================
 
 * scheduled
 * queued
@@ -13,8 +10,6 @@ Assignment States
 * complete
 * expired
 
-Assignment Transitions
-----------------------------------------
 #. msg_to_twilio
 #. twilio_error
 #. direct_message
@@ -24,3 +19,4 @@ Assignment Transitions
 #. stops_responding
 #. all_responses
 
+DIAGRAM HERE

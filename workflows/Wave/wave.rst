@@ -1,8 +1,5 @@
-Workflow wave in Wave
-=========================================================
-
-Wave States
--------------------------------------
+wave in AppBundle\Entity\Member
+===============================
 
 * start
 * no_tasks
@@ -16,8 +13,6 @@ Wave States
 * archived
 * deleted
 
-Wave Transitions
-----------------------------------------
 #. create_new
 #. configure
 #. archive
@@ -35,3 +30,4 @@ Wave Transitions
 #. delete_activated
 #. delete_unactivated
 
+DIAGRAM HERE

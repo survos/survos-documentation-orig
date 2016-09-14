@@ -1,8 +1,5 @@
-Workflow kci_wave in Wave
-=========================================================
-
-Wave States
--------------------------------------
+kci_wave in AppBundle\Entity\Member
+===============================
 
 * survey_is_active
 * accepting_participants
@@ -14,8 +11,6 @@ Wave States
 * archived
 * deleted
 
-Wave Transitions
-----------------------------------------
 #. create_new_wave
 #. configure
 #. stop
@@ -25,3 +20,4 @@ Wave Transitions
 #. turk_work
 #. delete_activated
 
+DIAGRAM HERE

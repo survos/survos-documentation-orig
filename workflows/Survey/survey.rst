@@ -1,8 +1,5 @@
-Workflow survey in Survey
-=========================================================
-
-Survey States
--------------------------------------
+survey in AppBundle\Entity\Member
+===============================
 
 * new
 * configured
@@ -15,8 +12,6 @@ Survey States
 * paused
 * archived
 
-Survey Transitions
-----------------------------------------
 #. configure
 #. design_questions
 #. modify_configuration
@@ -29,3 +24,4 @@ Survey Transitions
 #. pause
 #. resume
 
+DIAGRAM HERE

@@ -1,8 +1,5 @@
-Workflow participant in Member
-=========================================================
-
-Member States
--------------------------------------
+participant in AppBundle\Entity\Member
+===============================
 
 * registered
 * active
@@ -11,8 +8,6 @@ Member States
 * waves_completed
 * awaiting_followup
 
-Member Transitions
-----------------------------------------
 #. enroll_in_waves
 #. complete_waves
 #. request_follow_up
@@ -20,3 +15,4 @@ Member Transitions
 #. followup_complete
 #. dismiss
 
+DIAGRAM HERE
