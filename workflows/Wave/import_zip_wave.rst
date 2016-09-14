@@ -1,11 +1,15 @@
-import_zip_wave in AppBundle\Entity\Member
-===============================
+Workflow import_zip_wave in Wave
+=========================================================
+
+Wave States
+-------------------------------------
 
 * uploaded
 * unzipped
 * tasks_loaded
 
+Wave Transitions
+----------------------------------------
 #. unzip
 #. load_tasks
 
-DIAGRAM HERE

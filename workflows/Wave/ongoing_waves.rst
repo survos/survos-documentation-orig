@@ -1,5 +1,8 @@
-ongoing_waves in AppBundle\Entity\Member
-===============================
+Workflow ongoing_waves in Wave
+=========================================================
+
+Wave States
+-------------------------------------
 
 * survey_is_active
 * no_participants
@@ -12,6 +15,8 @@ ongoing_waves in AppBundle\Entity\Member
 * archived
 * deleted
 
+Wave Transitions
+----------------------------------------
 #. create_new_wave
 #. configure
 #. archive
@@ -23,4 +28,3 @@ ongoing_waves in AppBundle\Entity\Member
 #. purge_participants
 #. delete_activated
 
-DIAGRAM HERE

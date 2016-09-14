@@ -7,7 +7,7 @@ Each lifecycle component shares a workflow.
 Contents:
 
 .. toctree::
-:maxdepth: 2
+        :maxdepth: 2
 
         workflows/Member/participant
         workflows/Member/applicant

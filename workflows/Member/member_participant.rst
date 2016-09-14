@@ -1,5 +1,8 @@
-member_participant in AppBundle\Entity\Member
-===============================
+Workflow member_participant in Member
+=========================================================
+
+Member States
+-------------------------------------
 
 * visitor
 * invited_applicant
@@ -13,6 +16,8 @@ member_participant in AppBundle\Entity\Member
 * waitlist
 * ignored
 
+Member Transitions
+----------------------------------------
 #. admin_creates_participant
 #. applicant_applies
 #. applicant_is_invited
@@ -29,4 +34,3 @@ member_participant in AppBundle\Entity\Member
 #. finish
 #. dismissed
 
-DIAGRAM HERE
