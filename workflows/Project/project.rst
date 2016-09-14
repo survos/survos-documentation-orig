@@ -1,16 +1,12 @@
-Workflow project in Project
-=========================================================
-
-Project States
--------------------------------------
+project in AppBundle\Entity\Member
+===============================
 
 * new
 * configured
 * deployed
 * archived
 
-Project Transitions
-----------------------------------------
 #. configure
 #. archive
 
+DIAGRAM HERE

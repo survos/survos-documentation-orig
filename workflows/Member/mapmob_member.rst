@@ -1,8 +1,5 @@
-Workflow mapmob_member in Member
-=========================================================
-
-Member States
--------------------------------------
+mapmob_member in AppBundle\Entity\Member
+===============================
 
 * guest
 * anonymous_recruitment_account
@@ -12,8 +9,6 @@ Member States
 * has_answers
 * tracking
 
-Member Transitions
-----------------------------------------
 #. define_neighborhood
 #. answer_surveys
 #. agree
@@ -21,3 +16,4 @@ Member Transitions
 #. received_first_point
 #. update_recruitment_account
 
+DIAGRAM HERE

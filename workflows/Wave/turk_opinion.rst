@@ -1,8 +1,5 @@
-Workflow turk_opinion in Wave
-=========================================================
-
-Wave States
--------------------------------------
+turk_opinion in AppBundle\Entity\Member
+===============================
 
 * survey_is_active
 * no_participants
@@ -17,8 +14,6 @@ Wave States
 * archived
 * deleted
 
-Wave Transitions
-----------------------------------------
 #. create_new_wave
 #. configure
 #. activate
@@ -29,3 +24,4 @@ Wave Transitions
 #. archive
 #. delete_activated
 
+DIAGRAM HERE

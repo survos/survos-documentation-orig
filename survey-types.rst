@@ -64,7 +64,6 @@ Choose "Create Job" and select the type of job you want to create.  Because sett
 All of the job types ask the following information:
  Code
  Title
- Description
  Notes
  Type:
 

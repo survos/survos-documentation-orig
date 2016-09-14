@@ -1,8 +1,5 @@
-Workflow applicant in Member
-=========================================================
-
-Member States
--------------------------------------
+applicant in AppBundle\Entity\Member
+===============================
 
 * visitor
 * invited_applicant
@@ -14,8 +11,6 @@ Member States
 * waitlist
 * ignored
 
-Member Transitions
-----------------------------------------
 #. admin_creates_participant
 #. applicant_applies
 #. applicant_is_invited
@@ -31,3 +26,4 @@ Member Transitions
 #. waitlist
 #. enroll_from_waitlist
 
+DIAGRAM HERE
