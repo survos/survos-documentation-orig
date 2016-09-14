@@ -16,7 +16,7 @@ If your projects has study participants, enable one or more of these modules:
 
 If your project needs anonymous, remote participants to answer questions about themselves, enable
 
- - *:ref:`turk_opinion`*: Questions are answered by anonymous Turkers see :ref:`turk_opinion`
+ - *Turk Opinion*: Questions are answered by anonymous Turkers see :ref:`turk_opinion`
 
 If your project has or collects data about things, such as places or images, enable
 
@@ -40,6 +40,8 @@ Contents:
    :maxdepth: 2
 
    getting-started
+   workflows
+   roles
    modules
    users-participants
    tutorials

@@ -28,13 +28,9 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
-* Via API, see :ref:`ongoing_api_type`
-* Self Report via IVR, see :ref:`ivr_self_report_type`
-* Scheduled Calls, see :ref:`ivr_scheduled_type`
-* App Self Report, see :ref:`app_self_report_type`
-* SMS Self Report, see :ref:`sms_self_report_type`
-* App (Scheduled), see :ref:`app_scheduled_type`
 * Scheduled SMS, see :ref:`sms_scheduled_type`
+* Via API, see :ref:`ongoing_api_type`
+* SMS Self Report, see :ref:`sms_self_report_type`
 
 
 Survey Participants
@@ -54,10 +50,6 @@ Code: ongoing
 .. toctree::
     :maxdepth: 2
 
-    survey-types/ongoing_api
-    survey-types/ivr_self_report
-    survey-types/ivr_scheduled
-    survey-types/app_self_report
-    survey-types/sms_self_report
-    survey-types/app_scheduled
     survey-types/sms_scheduled
+    survey-types/ongoing_api
+    survey-types/sms_self_report
