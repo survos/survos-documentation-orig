@@ -1,5 +1,8 @@
-survey in AppBundle\Entity\Member
-===============================
+Workflow survey in Survey
+=========================================================
+
+Survey States
+-------------------------------------
 
 * new
 * configured
@@ -12,6 +15,8 @@ survey in AppBundle\Entity\Member
 * paused
 * archived
 
+Survey Transitions
+----------------------------------------
 #. configure
 #. design_questions
 #. modify_configuration
@@ -24,4 +29,9 @@ survey in AppBundle\Entity\Member
 #. pause
 #. resume
 
-DIAGRAM HERE
+The Workflow
+------------
+
+.. figure::  http://behattest.stagingsurvos.com/workflow/download/survey.svg
+
+   Workflow survey

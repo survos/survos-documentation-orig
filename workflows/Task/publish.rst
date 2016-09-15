@@ -1,5 +1,8 @@
-publish in AppBundle\Entity\Member
-===============================
+Workflow publish in Task
+=========================================================
+
+Task States
+-------------------------------------
 
 * created
 * unassigned
@@ -19,7 +22,14 @@ publish in AppBundle\Entity\Member
 * published
 * error
 
+Task Transitions
+----------------------------------------
 #. background
 #. publish_on_turk
 
-DIAGRAM HERE
+The Workflow
+------------
+
+.. figure::  http://behattest.stagingsurvos.com/workflow/download/publish.svg
+
+   Workflow publish

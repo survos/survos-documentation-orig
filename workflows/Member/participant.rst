@@ -1,6 +1,10 @@
-participant in AppBundle\Entity\Member
-===============================
+Workflow participant in Member
+=========================================================
 
+Member States
+-------------------------------------
+
+* unregistered
 * registered
 * active
 * finished
@@ -8,6 +12,9 @@ participant in AppBundle\Entity\Member
 * waves_completed
 * awaiting_followup
 
+Member Transitions
+----------------------------------------
+#. register
 #. enroll_in_waves
 #. complete_waves
 #. request_follow_up
@@ -15,4 +22,9 @@ participant in AppBundle\Entity\Member
 #. followup_complete
 #. dismiss
 
-DIAGRAM HERE
+The Workflow
+------------
+
+.. figure::  http://behattest.stagingsurvos.com/workflow/download/participant.svg
+
+   Workflow participant

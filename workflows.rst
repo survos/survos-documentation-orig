@@ -14,7 +14,6 @@ Contents:
     workflows/Member/mapmob_member
     workflows/Member/member_participant
     workflows/Wave/turk_opinion
-    workflows/Wave/kci_wave
     workflows/Wave/ongoing_waves
     workflows/Wave/wave
     workflows/Wave/import_zip_wave

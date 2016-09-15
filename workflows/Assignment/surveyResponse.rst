@@ -1,5 +1,8 @@
-surveyResponse in AppBundle\Entity\Member
-===============================
+Workflow surveyResponse in Assignment
+=========================================================
+
+Assignment States
+-------------------------------------
 
 * scheduled
 * queued
@@ -10,6 +13,8 @@ surveyResponse in AppBundle\Entity\Member
 * complete
 * expired
 
+Assignment Transitions
+----------------------------------------
 #. msg_to_twilio
 #. twilio_error
 #. direct_message
@@ -19,4 +24,9 @@ surveyResponse in AppBundle\Entity\Member
 #. stops_responding
 #. all_responses
 
-DIAGRAM HERE
+The Workflow
+------------
+
+.. figure::  http://behattest.stagingsurvos.com/workflow/download/surveyResponse.svg
+
+   Workflow surveyResponse

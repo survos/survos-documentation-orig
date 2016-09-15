@@ -1,5 +1,8 @@
-enrollment in AppBundle\Entity\Member
-===============================
+Workflow enrollment in Task
+=========================================================
+
+Task States
+-------------------------------------
 
 * waiting
 * participating
@@ -13,6 +16,8 @@ enrollment in AppBundle\Entity\Member
 * complete
 * failed
 
+Task Transitions
+----------------------------------------
 #. dismiss
 #. approve
 #. complete
@@ -21,4 +26,9 @@ enrollment in AppBundle\Entity\Member
 #. participant_quits
 #. admin_dismisses
 
-DIAGRAM HERE
+The Workflow
+------------
+
+.. figure::  http://behattest.stagingsurvos.com/workflow/download/enrollment.svg
+
+   Workflow enrollment

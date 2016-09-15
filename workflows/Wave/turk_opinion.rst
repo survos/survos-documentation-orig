@@ -1,5 +1,8 @@
-turk_opinion in AppBundle\Entity\Member
-===============================
+Workflow turk_opinion in Wave
+=========================================================
+
+Wave States
+-------------------------------------
 
 * survey_is_active
 * no_participants
@@ -14,6 +17,8 @@ turk_opinion in AppBundle\Entity\Member
 * archived
 * deleted
 
+Wave Transitions
+----------------------------------------
 #. create_new_wave
 #. configure
 #. activate
@@ -24,4 +29,9 @@ turk_opinion in AppBundle\Entity\Member
 #. archive
 #. delete_activated
 
-DIAGRAM HERE
+The Workflow
+------------
+
+.. figure::  http://behattest.stagingsurvos.com/workflow/download/turk_opinion.svg
+
+   Workflow turk_opinion

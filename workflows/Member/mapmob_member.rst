@@ -1,5 +1,8 @@
-mapmob_member in AppBundle\Entity\Member
-===============================
+Workflow mapmob_member in Member
+=========================================================
+
+Member States
+-------------------------------------
 
 * guest
 * anonymous_recruitment_account
@@ -9,6 +12,8 @@ mapmob_member in AppBundle\Entity\Member
 * has_answers
 * tracking
 
+Member Transitions
+----------------------------------------
 #. define_neighborhood
 #. answer_surveys
 #. agree
@@ -16,4 +21,9 @@ mapmob_member in AppBundle\Entity\Member
 #. received_first_point
 #. update_recruitment_account
 
-DIAGRAM HERE
+The Workflow
+------------
+
+.. figure::  http://behattest.stagingsurvos.com/workflow/download/mapmob_member.svg
+
+   Workflow mapmob_member
