@@ -27,5 +27,5 @@ Assignment Transitions
 The Workflow
 ------------
 
-.. image::  /images/surveyResponse.png
+.. image::  /images/surveyResponse.svg
    :alt: Workflow surveyResponse
