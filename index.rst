@@ -1,16 +1,16 @@
 Survos Platform
 ==============================
 
-The Survos Platform providers researchers with powerful tools to interact with their study participants.  Participants can interact via random or fixed-interval SMS surveys, provide detailed, continuous information about their location, and collect photos via SMS or our app.  Researchers can extract information about those photos via Amazon's Mechanical Turk, a crowd-sourcing platform.
+The Survos Platform provides researchers with powerful tools to interact with their study participants.  Participants can interact via random or fixed-interval SMS surveys, provide detailed, continuous information about their location, and collect photos via SMS or our app.  Researchers can extract information about those photos via Amazon's Mechanical Turk, a crowd-sourcing platform.
 
-This documentation provides detailed instructions about what the tools do, and how they are configured.  As with many comprehensive systems, sometimes getting started is the hardest part.  The major parts of the data collection system are broken down into "Modules", the basic workflow is the same for all the survey types with.
+This documentation provides detailed instructions about what the tools do, and how they are configured.  As with many comprehensive systems, sometimes getting started is the hardest part.  The major parts of the data collection system are broken down into "Modules".  The basic workflow is the same for all the survey types.
 
 Getting Started
 -------------------
 
 If your projects has study participants, enable one or more of these modules:
 
- - *Ongoing*: Continously collection of data about a *participant*, .e.g an SMS survey 3x/day for 2 weeks, see :ref:`ongoing`
+ - *Ongoing*: Continous collection of data about a *participant*, .e.g an SMS survey 3x/day for 2 weeks, see :ref:`ongoing`
  - *Single*: A questionnaire of a participant, often web-based, e.g. "How often did your parents smoke indoors?" see :ref:`single`
  - *Tracking*: Continuous location data (works with tracking app that runs on participant's phone) see :ref:`tracking`
 
