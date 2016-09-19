@@ -38,6 +38,6 @@ Wave Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/wave.svg
+.. figure::  /images/workflows/wave.png
 
    Workflow wave

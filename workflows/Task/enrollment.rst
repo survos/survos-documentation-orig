@@ -29,6 +29,6 @@ Task Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/enrollment.svg
+.. figure::  /images/workflows/enrollment.png
 
    Workflow enrollment

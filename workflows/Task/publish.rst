@@ -30,6 +30,6 @@ Task Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/publish.svg
+.. figure::  /images/workflows/publish.png
 
    Workflow publish

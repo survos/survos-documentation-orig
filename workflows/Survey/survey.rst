@@ -32,6 +32,6 @@ Survey Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/survey.svg
+.. figure::  /images/workflows/survey.png
 
    Workflow survey

@@ -37,6 +37,6 @@ Member Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/member_participant.svg
+.. figure::  /images/workflows/member_participant.png
 
    Workflow member_participant

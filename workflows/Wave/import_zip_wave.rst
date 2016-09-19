@@ -16,6 +16,6 @@ Wave Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/import_zip_wave.svg
+.. figure::  /images/workflows/import_zip_wave.png
 
    Workflow import_zip_wave

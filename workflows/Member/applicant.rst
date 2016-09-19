@@ -34,6 +34,6 @@ Member Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/applicant.svg
+.. figure::  /images/workflows/applicant.png
 
    Workflow applicant

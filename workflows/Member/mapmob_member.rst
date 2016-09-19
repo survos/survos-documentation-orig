@@ -24,6 +24,6 @@ Member Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/mapmob_member.svg
+.. figure::  /images/workflows/mapmob_member.png
 
    Workflow mapmob_member

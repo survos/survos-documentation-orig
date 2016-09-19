@@ -17,6 +17,6 @@ Project Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/project.svg
+.. figure::  /images/workflows/project.png
 
    Workflow project

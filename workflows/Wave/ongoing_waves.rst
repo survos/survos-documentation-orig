@@ -31,6 +31,6 @@ Wave Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/ongoing_waves.svg
+.. figure::  /images/workflows/ongoing_waves.png
 
    Workflow ongoing_waves

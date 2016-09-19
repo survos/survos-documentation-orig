@@ -32,6 +32,6 @@ Wave Transitions
 The Workflow
 ------------
 
-.. figure::  http://behattest.stagingsurvos.com/workflow/download/turk_opinion.svg
+.. figure::  /images/workflows/turk_opinion.png
 
    Workflow turk_opinion
