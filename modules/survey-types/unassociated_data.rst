@@ -31,7 +31,7 @@ unassociated_data Basic
 This is the form snippet from `basic Tab in the unassociated_data Wave
 <http://behattest.stagingsurvos.com/waves/dummy/unassociated_data#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/unassociated_data_basic.png
+.. figure::  /images/modules/unassociated_data_basic.png
 
    Rendered Form unassociated_data Wave Tab basic
 
@@ -113,7 +113,7 @@ unassociated_data Enrollment
 This is the form snippet from `enrollment Tab in the unassociated_data Wave
 <http://behattest.stagingsurvos.com/waves/dummy/unassociated_data#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/unassociated_data_enrollment.png
+.. figure::  /images/modules/unassociated_data_enrollment.png
 
    Rendered Form unassociated_data Wave Tab enrollment
 
@@ -175,7 +175,7 @@ unassociated_data Workflow
 This is the form snippet from `workflow Tab in the unassociated_data Wave
 <http://behattest.stagingsurvos.com/waves/dummy/unassociated_data#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/unassociated_data_workflow.png
+.. figure::  /images/modules/unassociated_data_workflow.png
 
    Rendered Form unassociated_data Wave Tab workflow
 

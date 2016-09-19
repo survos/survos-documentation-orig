@@ -31,7 +31,7 @@ sms_self_report Basic
 This is the form snippet from `basic Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_basic.png
+.. figure::  /images/modules/sms_self_report_basic.png
 
    Rendered Form sms_self_report Wave Tab basic
 
@@ -123,7 +123,7 @@ sms_self_report Enrollment
 This is the form snippet from `enrollment Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_enrollment.png
+.. figure::  /images/modules/sms_self_report_enrollment.png
 
    Rendered Form sms_self_report Wave Tab enrollment
 
@@ -195,7 +195,7 @@ sms_self_report Workflow
 This is the form snippet from `workflow Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_workflow.png
+.. figure::  /images/modules/sms_self_report_workflow.png
 
    Rendered Form sms_self_report Wave Tab workflow
 
@@ -256,7 +256,7 @@ sms_self_report Expiration
 This is the form snippet from `expiration Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#expiration>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_expiration.png
+.. figure::  /images/modules/sms_self_report_expiration.png
 
    Rendered Form sms_self_report Wave Tab expiration
 
@@ -378,7 +378,7 @@ sms_self_report Extra
 This is the form snippet from `additional Tab in the sms_self_report Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_self_report#additional>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_self_report_additional.png
+.. figure::  /images/modules/sms_self_report_additional.png
 
    Rendered Form sms_self_report Wave Tab additional
 

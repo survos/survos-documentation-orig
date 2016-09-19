@@ -31,7 +31,7 @@ sms_single Basic
 This is the form snippet from `basic Tab in the sms_single Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_single#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_single_basic.png
+.. figure::  /images/modules/sms_single_basic.png
 
    Rendered Form sms_single Wave Tab basic
 
@@ -113,7 +113,7 @@ sms_single Enrollment
 This is the form snippet from `enrollment Tab in the sms_single Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_single#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_single_enrollment.png
+.. figure::  /images/modules/sms_single_enrollment.png
 
    Rendered Form sms_single Wave Tab enrollment
 
@@ -195,7 +195,7 @@ sms_single Workflow
 This is the form snippet from `workflow Tab in the sms_single Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_single#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_single_workflow.png
+.. figure::  /images/modules/sms_single_workflow.png
 
    Rendered Form sms_single Wave Tab workflow
 
@@ -256,7 +256,7 @@ sms_single Expiration
 This is the form snippet from `expiration Tab in the sms_single Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_single#expiration>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_single_expiration.png
+.. figure::  /images/modules/sms_single_expiration.png
 
    Rendered Form sms_single Wave Tab expiration
 

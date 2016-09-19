@@ -31,7 +31,7 @@ desktop_field Basic
 This is the form snippet from `basic Tab in the desktop_field Wave
 <http://behattest.stagingsurvos.com/waves/dummy/desktop_field#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/desktop_field_basic.png
+.. figure::  /images/modules/desktop_field_basic.png
 
    Rendered Form desktop_field Wave Tab basic
 
@@ -113,7 +113,7 @@ desktop_field Enrollment
 This is the form snippet from `enrollment Tab in the desktop_field Wave
 <http://behattest.stagingsurvos.com/waves/dummy/desktop_field#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/desktop_field_enrollment.png
+.. figure::  /images/modules/desktop_field_enrollment.png
 
    Rendered Form desktop_field Wave Tab enrollment
 
@@ -165,7 +165,7 @@ desktop_field Workflow
 This is the form snippet from `workflow Tab in the desktop_field Wave
 <http://behattest.stagingsurvos.com/waves/dummy/desktop_field#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/desktop_field_workflow.png
+.. figure::  /images/modules/desktop_field_workflow.png
 
    Rendered Form desktop_field Wave Tab workflow
 

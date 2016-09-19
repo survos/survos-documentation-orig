@@ -31,7 +31,7 @@ turk_expert Basic
 This is the form snippet from `basic Tab in the turk_expert Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_expert#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/turk_expert_basic.png
+.. figure::  /images/modules/turk_expert_basic.png
 
    Rendered Form turk_expert Wave Tab basic
 
@@ -113,7 +113,7 @@ turk_expert Enrollment
 This is the form snippet from `enrollment Tab in the turk_expert Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_expert#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/turk_expert_enrollment.png
+.. figure::  /images/modules/turk_expert_enrollment.png
 
    Rendered Form turk_expert Wave Tab enrollment
 
@@ -165,7 +165,7 @@ turk_expert Workflow
 This is the form snippet from `workflow Tab in the turk_expert Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_expert#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/turk_expert_workflow.png
+.. figure::  /images/modules/turk_expert_workflow.png
 
    Rendered Form turk_expert Wave Tab workflow
 

@@ -1,10 +1,6 @@
 ======================
 User Accounts
 ======================
-*ROLE_APPLICANT*
-    Applicants are not yet in the study, and have no study identifier.  They are no eligible to be enrolled
-in any waves except screener waves, which are used to determined if they are eligble for the study.
-
 *ROLE_PARTICIPANT*
     Participants are study subjects in a study.  They have a unique anonymous identifier.
 
@@ -15,6 +11,10 @@ Their account identifier (username) is identifiable, even if they are participat
 *ROLE_RESEARCHER*
     Researchers have read-only access to the entire study design and data, EXCEPT PII of the participants.
 Their account identifier (username) is identifiable, even if they are participating as a study participant (usually for testing)
+
+*ROLE_APPLICANT*
+    Applicants are not yet in the study, and have no study identifier.  They are not eligible to be enrolled
+in any waves except screener waves, which are used to determine if they are eligble for the study.
 
 *ROLE_FIELD_WORKER*
     roles.ROLE_FIELD_WORKER

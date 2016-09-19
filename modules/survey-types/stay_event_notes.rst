@@ -31,7 +31,7 @@ stay_event_notes Basic
 This is the form snippet from `basic Tab in the stay_event_notes Wave
 <http://behattest.stagingsurvos.com/waves/dummy/stay_event_notes#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/stay_event_notes_basic.png
+.. figure::  /images/modules/stay_event_notes_basic.png
 
    Rendered Form stay_event_notes Wave Tab basic
 
@@ -113,7 +113,7 @@ stay_event_notes Enrollment
 This is the form snippet from `enrollment Tab in the stay_event_notes Wave
 <http://behattest.stagingsurvos.com/waves/dummy/stay_event_notes#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/stay_event_notes_enrollment.png
+.. figure::  /images/modules/stay_event_notes_enrollment.png
 
    Rendered Form stay_event_notes Wave Tab enrollment
 
@@ -175,7 +175,7 @@ stay_event_notes Workflow
 This is the form snippet from `workflow Tab in the stay_event_notes Wave
 <http://behattest.stagingsurvos.com/waves/dummy/stay_event_notes#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/stay_event_notes_workflow.png
+.. figure::  /images/modules/stay_event_notes_workflow.png
 
    Rendered Form stay_event_notes Wave Tab workflow
 

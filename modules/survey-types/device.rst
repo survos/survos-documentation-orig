@@ -31,7 +31,7 @@ device Basic
 This is the form snippet from `basic Tab in the device Wave
 <http://behattest.stagingsurvos.com/waves/dummy/device#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/device_basic.png
+.. figure::  /images/modules/device_basic.png
 
    Rendered Form device Wave Tab basic
 
@@ -173,7 +173,7 @@ device Enrollment
 This is the form snippet from `enrollment Tab in the device Wave
 <http://behattest.stagingsurvos.com/waves/dummy/device#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/device_enrollment.png
+.. figure::  /images/modules/device_enrollment.png
 
    Rendered Form device Wave Tab enrollment
 
@@ -235,7 +235,7 @@ device Workflow
 This is the form snippet from `workflow Tab in the device Wave
 <http://behattest.stagingsurvos.com/waves/dummy/device#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/device_workflow.png
+.. figure::  /images/modules/device_workflow.png
 
    Rendered Form device Wave Tab workflow
 

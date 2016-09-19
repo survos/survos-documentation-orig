@@ -31,7 +31,7 @@ sms_scheduled Basic
 This is the form snippet from `basic Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_basic.png
+.. figure::  /images/modules/sms_scheduled_basic.png
 
    Rendered Form sms_scheduled Wave Tab basic
 
@@ -173,7 +173,7 @@ sms_scheduled Enrollment
 This is the form snippet from `enrollment Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_enrollment.png
+.. figure::  /images/modules/sms_scheduled_enrollment.png
 
    Rendered Form sms_scheduled Wave Tab enrollment
 
@@ -255,7 +255,7 @@ sms_scheduled Workflow
 This is the form snippet from `workflow Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_workflow.png
+.. figure::  /images/modules/sms_scheduled_workflow.png
 
    Rendered Form sms_scheduled Wave Tab workflow
 
@@ -316,7 +316,7 @@ sms_scheduled Expiration
 This is the form snippet from `expiration Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#expiration>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_expiration.png
+.. figure::  /images/modules/sms_scheduled_expiration.png
 
    Rendered Form sms_scheduled Wave Tab expiration
 
@@ -438,7 +438,7 @@ sms_scheduled Extra
 This is the form snippet from `additional Tab in the sms_scheduled Wave
 <http://behattest.stagingsurvos.com/waves/dummy/sms_scheduled#additional>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/sms_scheduled_additional.png
+.. figure::  /images/modules/sms_scheduled_additional.png
 
    Rendered Form sms_scheduled Wave Tab additional
 

@@ -31,7 +31,7 @@ turk_participants Basic
 This is the form snippet from `basic Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_basic.png
+.. figure::  /images/modules/turk_participants_basic.png
 
    Rendered Form turk_participants Wave Tab basic
 
@@ -113,7 +113,7 @@ turk_participants Enrollment
 This is the form snippet from `enrollment Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_enrollment.png
+.. figure::  /images/modules/turk_participants_enrollment.png
 
    Rendered Form turk_participants Wave Tab enrollment
 
@@ -165,7 +165,7 @@ turk_participants Workflow
 This is the form snippet from `workflow Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_workflow.png
+.. figure::  /images/modules/turk_participants_workflow.png
 
    Rendered Form turk_participants Wave Tab workflow
 
@@ -246,7 +246,7 @@ turk_participants Task
 This is the form snippet from `task Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#task>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_task.png
+.. figure::  /images/modules/turk_participants_task.png
 
    Rendered Form turk_participants Wave Tab task
 
@@ -359,7 +359,7 @@ turk_participants Qualifications
 This is the form snippet from `qualifications Tab in the turk_participants Wave
 <http://behattest.stagingsurvos.com/waves/dummy/turk_participants#qualifications>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/turk_participants_qualifications.png
+.. figure::  /images/modules/turk_participants_qualifications.png
 
    Rendered Form turk_participants Wave Tab qualifications
 

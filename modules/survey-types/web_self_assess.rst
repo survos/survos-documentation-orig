@@ -31,7 +31,7 @@ web_self_assess Basic
 This is the form snippet from `basic Tab in the web_self_assess Wave
 <http://behattest.stagingsurvos.com/waves/dummy/web_self_assess#basic>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/web_self_assess_basic.png
+.. figure::  /images/modules/web_self_assess_basic.png
 
    Rendered Form web_self_assess Wave Tab basic
 
@@ -113,7 +113,7 @@ web_self_assess Enrollment
 This is the form snippet from `enrollment Tab in the web_self_assess Wave
 <http://behattest.stagingsurvos.com/waves/dummy/web_self_assess#enrollment>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/web_self_assess_enrollment.png
+.. figure::  /images/modules/web_self_assess_enrollment.png
 
    Rendered Form web_self_assess Wave Tab enrollment
 
@@ -175,7 +175,7 @@ web_self_assess Workflow
 This is the form snippet from `workflow Tab in the web_self_assess Wave
 <http://behattest.stagingsurvos.com/waves/dummy/web_self_assess#workflow>`_.
 
-.. figure::  https://s3.amazonaws.com/survos-documentation/web_self_assess_workflow.png
+.. figure::  /images/modules/web_self_assess_workflow.png
 
    Rendered Form web_self_assess Wave Tab workflow
 
