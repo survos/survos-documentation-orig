@@ -2,9 +2,9 @@
 
 ..  _screener:
 
-Screener Survey Types
+Candidate Screener Survey Types
 =======================================
-Used to qualify participants or Turk workers
+Information to screen applicants (potential study participants or field workers)
 
 What's Needed to Deploy
 -------------------------
@@ -23,8 +23,11 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
-* Screener, see :ref:`participant_screener_type`
-* Turk Qualifications, see :ref:`turk_screener_type`
+* custom, see :ref:`custom_type`
+* geo_triggered, see :ref:`geo_triggered_type`
+* self_initiated, see :ref:`self_initiated_type`
+* random, see :ref:`random_type`
+* fixed, see :ref:`fixed_type`
 
 
 Survey Participants
@@ -44,5 +47,8 @@ Code: screener
 .. toctree::
     :maxdepth: 2
 
-    survey-types/participant_screener
-    survey-types/turk_screener
+    survey-types/custom
+    survey-types/geo_triggered
+    survey-types/self_initiated
+    survey-types/random
+    survey-types/fixed

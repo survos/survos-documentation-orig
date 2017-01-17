@@ -7,6 +7,10 @@ First, install sphinx
 ```
 sudo pip install sphinx sphinx-autobuild sphinxcontrib-httpdomain
 ```
+In case of pip error
+```
+sudo apt-get install python-pip python-setuptools
+```
 
 ##Workflow
 

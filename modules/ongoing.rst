@@ -2,9 +2,9 @@
 
 ..  _ongoing:
 
-Ongoing Survey Types
+Participant Survey Types
 =======================================
-Survey can be scheduled at fixed or random times, or self-initiated or based on location or by the user.
+Personal data about registered study participants
 
 What's Needed to Deploy
 -------------------------
@@ -28,9 +28,11 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
-* Scheduled SMS, see :ref:`sms_scheduled_type`
-* Via API, see :ref:`ongoing_api_type`
-* SMS Self Report, see :ref:`sms_self_report_type`
+* custom, see :ref:`custom_type`
+* geo_triggered, see :ref:`geo_triggered_type`
+* self_initiated, see :ref:`self_initiated_type`
+* random, see :ref:`random_type`
+* fixed, see :ref:`fixed_type`
 
 
 Survey Participants
@@ -50,6 +52,8 @@ Code: ongoing
 .. toctree::
     :maxdepth: 2
 
-    survey-types/sms_scheduled
-    survey-types/ongoing_api
-    survey-types/sms_self_report
+    survey-types/custom
+    survey-types/geo_triggered
+    survey-types/self_initiated
+    survey-types/random
+    survey-types/fixed
