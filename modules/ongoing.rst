@@ -2,9 +2,9 @@
 
 ..  _ongoing:
 
-Ongoing Survey Types
+Study Survey Types
 =======================================
-Survey can be scheduled at fixed or random times, or self-initiated or based on location or by the user.
+Personal data about registered study participants
 
 What's Needed to Deploy
 -------------------------
@@ -15,6 +15,13 @@ What's Needed to Deploy
 Use Case
 -------------------------
 When you want to repeatedly collect data from a participant over a period of time.  You can configure a daily diary -- a scheduled once-a-day survey, or ask participants to self-report every time they engage in some behavior, or randonly prompt participants with mood or behavior questions.
+
+
+Integration Types
+-----------------
+
+
+
 
 
 
@@ -28,9 +35,12 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
-* Scheduled SMS, see :ref:`sms_scheduled_type`
-* Via API, see :ref:`ongoing_api_type`
-* SMS Self Report, see :ref:`sms_self_report_type`
+    
+    * WebInterview, see :ref:`WebInterview_integration_type`
+    * Mapmob, see :ref:`Mapmob_integration_type`
+    * ObserveWeb, see :ref:`ObserveWeb_integration_type`
+    * Simulator, see :ref:`Simulator_integration_type`
+    * TwilioSms, see :ref:`TwilioSms_integration_type`
 
 
 Survey Participants
@@ -50,6 +60,9 @@ Code: ongoing
 .. toctree::
     :maxdepth: 2
 
-    survey-types/sms_scheduled
-    survey-types/ongoing_api
-    survey-types/sms_self_report
+
+    integration-types/WebInterview
+    integration-types/Mapmob
+    integration-types/ObserveWeb
+    integration-types/Simulator
+    integration-types/TwilioSms

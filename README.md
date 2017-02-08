@@ -14,7 +14,7 @@ Module and Survey Types rst files are generated from the Survos 6 Platform, and
 
 ```
 cd /var/www/survos
-bin/console survos:create-doc
+bin/console adhoc:generate-rst
 cd /var/www/survos-documentation
 ```
 

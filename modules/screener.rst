@@ -2,9 +2,9 @@
 
 ..  _screener:
 
-Screener Survey Types
+Recruit Survey Types
 =======================================
-Used to qualify participants or Turk workers
+Information to screen applicants (potential study participants or field workers)
 
 What's Needed to Deploy
 -------------------------
@@ -16,6 +16,10 @@ Use Case
 -------------------------
 
 
+Integration Types
+-----------------
+
+
 
 Typical Questions
 --------------------------
@@ -23,8 +27,9 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
-* Screener, see :ref:`participant_screener_type`
-* Turk Qualifications, see :ref:`turk_screener_type`
+    
+    * WebInterview, see :ref:`WebInterview_integration_type`
+    * ObserveWeb, see :ref:`ObserveWeb_integration_type`
 
 
 Survey Participants
@@ -44,5 +49,6 @@ Code: screener
 .. toctree::
     :maxdepth: 2
 
-    survey-types/participant_screener
-    survey-types/turk_screener
+
+    integration-types/WebInterview
+    integration-types/ObserveWeb
