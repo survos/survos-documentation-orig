@@ -23,11 +23,16 @@ Their account identifier (username) is identifiable, even if they are participat
 
 
 *ROLE_APPLICANT*
+<<<<<<< HEAD
 ------------------------------------
 
 Applicants are not yet in the study, and have no study identifier.  They are not eligible to be enrolled
 in any waves except screener waves, which are used to determine if they are eligible for the study.
 
+=======
+    Applicants are not yet in the study, and have no study identifier.  They are not eligible to be enrolled
+in any waves except screener waves, which are used to determine if they are eligible for the study.
+>>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
 
 *ROLE_FIELD_WORKER*
 ------------------------------------

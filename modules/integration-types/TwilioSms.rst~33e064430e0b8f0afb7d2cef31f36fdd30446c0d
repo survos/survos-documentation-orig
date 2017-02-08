@@ -1,24 +1,14 @@
 .. This file was automatically generated from SCRIPT_NAME -- do not modify it except to change the relevant twig file!
 
-<<<<<<< HEAD
-..  _WebInterview_integration_type:
+..  _TwilioSms_type:
 
-WebInterview Integration Types
+TwilioSms Surveys
 =======================================
-WebInterview
-
-The purpose of this integration is to provide a channel to collect data.
-
-=======
-..  _WebInterview_type:
-
-WebInterview Surveys
-=======================================
-WebInterview
+TwilioSms
 
 Basic Workflow
 -------------------------
-* Configure a WebInterview Survey
+* Configure a TwilioSms Survey
 * Design Survey Questions
 * Preview with Dummy Data
 * Activate
@@ -29,22 +19,21 @@ Typical Deployment Configuration
 --------------------------------
 
 * 3x/day for 14 days, randomly between participant wake time...
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
 
-WebInterview Wave Configuration
+TwilioSms Wave Configuration
 ------------------------
 
-Go through each screen of the Wave Form or Wizard for a WebInterview Wave
+Go through each screen of the Wave Form or Wizard for a TwilioSms Wave
 
-WebInterview Basic
+TwilioSms Basic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the form snippet from `basic Tab in the WebInterview Wave
-<http://behattest.stagingsurvos.com/waves/dummy/WebInterview#basic>`_.
+This is the form snippet from `basic Tab in the TwilioSms Wave
+<http://behattest.stagingsurvos.com/waves/dummy/TwilioSms#basic>`_.
 
-.. figure::  /images/modules/ongoing_WebInterview_basic.png
+.. figure::  /images/modules/ongoing_TwilioSms_basic.png
 
-   Rendered Form WebInterview Wave Tab basic
+   Rendered Form TwilioSms Wave Tab basic
 
 .. raw:: html
 
@@ -131,37 +120,27 @@ This is the form snippet from `basic Tab in the WebInterview Wave
             </tr>
                                     <tr class="row-even">
                 <th class="head">
-<<<<<<< HEAD
-                    marking                </th>
-                <td>
-                                            <b>Type</b>: string(32)                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                                    </td>
-=======
                     Source Channel                </th>
                 <td>
                                             <b>Type</b>: mixed
                                     </td>
                 <td>
                     For Import or Interview                </td>
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
             </tr>
                     </tbody>
     </table>
     </div>
 
 
-WebInterview Schedule
+TwilioSms Schedule
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the form snippet from `schedule Tab in the WebInterview Wave
-<http://behattest.stagingsurvos.com/waves/dummy/WebInterview#schedule>`_.
+This is the form snippet from `schedule Tab in the TwilioSms Wave
+<http://behattest.stagingsurvos.com/waves/dummy/TwilioSms#schedule>`_.
 
-.. figure::  /images/modules/ongoing_WebInterview_schedule.png
+.. figure::  /images/modules/ongoing_TwilioSms_schedule.png
 
-   Rendered Form WebInterview Wave Tab schedule
+   Rendered Form TwilioSms Wave Tab schedule
 
 .. raw:: html
 
@@ -192,19 +171,6 @@ This is the form snippet from `schedule Tab in the WebInterview Wave
             </tr>
                                     <tr class="row-even">
                 <th class="head">
-<<<<<<< HEAD
-                    OK to Enroll                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    If enrollment is permitted now                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-=======
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                     Schedule                </th>
                 <td>
                                             <b>Type</b>: text                            <br>
@@ -213,11 +179,7 @@ This is the form snippet from `schedule Tab in the WebInterview Wave
                 <td>
                     help_block_schedule_configuration                </td>
             </tr>
-<<<<<<< HEAD
-                                    <tr class="row-even">
-=======
                                     <tr class="row-odd">
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                 <th class="head">
                     Scheduling Conditions                </th>
                 <td>
@@ -228,11 +190,7 @@ This is the form snippet from `schedule Tab in the WebInterview Wave
                     Only schedule when these conditions are met, e.g. dayOfWeek in ['Mon','Wed','Fri'] and dayOfMonth != 22
                                 Fields: dayOfWeek (.e.g Mon), month (e.g. Jan), dayOfMonth (e.g. 15)                </td>
             </tr>
-<<<<<<< HEAD
-                                    <tr class="row-odd">
-=======
                                     <tr class="row-even">
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                 <th class="head">
                     Start Date                </th>
                 <td>
@@ -241,8 +199,6 @@ This is the form snippet from `schedule Tab in the WebInterview Wave
                 <td>
                     Starting date of the protocol, when surveys are scheduled / accepted.                </td>
             </tr>
-<<<<<<< HEAD
-=======
                                     <tr class="row-odd">
                 <th class="head">
                     Completion Threshold                </th>
@@ -253,7 +209,6 @@ This is the form snippet from `schedule Tab in the WebInterview Wave
                 <td>
                     Minimum completed prompt percentage to mark as Complete                </td>
             </tr>
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                                     <tr class="row-even">
                 <th class="head">
                     Relative To Start Date                </th>
@@ -276,19 +231,6 @@ This is the form snippet from `schedule Tab in the WebInterview Wave
             </tr>
                                     <tr class="row-even">
                 <th class="head">
-<<<<<<< HEAD
-                    Completion Threshold                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Minimum completed prompt percentage to mark as Complete                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-=======
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                     Notes                </th>
                 <td>
                                             <b>Type</b>: text                            <br>
@@ -297,11 +239,7 @@ This is the form snippet from `schedule Tab in the WebInterview Wave
                 <td>
                                     </td>
             </tr>
-<<<<<<< HEAD
-                                    <tr class="row-even">
-=======
                                     <tr class="row-odd">
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                 <th class="head">
                     Is Active                </th>
                 <td>
@@ -316,15 +254,15 @@ This is the form snippet from `schedule Tab in the WebInterview Wave
     </div>
 
 
-WebInterview Enrollment
+TwilioSms Enrollment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the form snippet from `enrollment Tab in the WebInterview Wave
-<http://behattest.stagingsurvos.com/waves/dummy/WebInterview#enrollment>`_.
+This is the form snippet from `enrollment Tab in the TwilioSms Wave
+<http://behattest.stagingsurvos.com/waves/dummy/TwilioSms#enrollment>`_.
 
-.. figure::  /images/modules/ongoing_WebInterview_enrollment.png
+.. figure::  /images/modules/ongoing_TwilioSms_enrollment.png
 
-   Rendered Form WebInterview Wave Tab enrollment
+   Rendered Form TwilioSms Wave Tab enrollment
 
 .. raw:: html
 
@@ -343,6 +281,26 @@ This is the form snippet from `enrollment Tab in the WebInterview Wave
             </tr>
         </thead>
         <tbody valign="top">
+                                    <tr class="row-odd">
+                <th class="head">
+                    Welcome                </th>
+                <td>
+                                            <b>Type</b>: boolean                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Send a welcome text message upon enrollment                </td>
+            </tr>
+                                    <tr class="row-even">
+                <th class="head">
+                    Message                </th>
+                <td>
+                                            <b>Type</b>: text                            <br>
+                        <b>Required</b>: No<br>
+                                                                                    </td>
+                <td>
+                    Welcome Message                </td>
+            </tr>
                                     <tr class="row-odd">
                 <th class="head">
                     Auto-Schedule                </th>
@@ -395,15 +353,15 @@ This is the form snippet from `enrollment Tab in the WebInterview Wave
     </div>
 
 
-WebInterview Expiration
+TwilioSms Expiration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the form snippet from `expiration Tab in the WebInterview Wave
-<http://behattest.stagingsurvos.com/waves/dummy/WebInterview#expiration>`_.
+This is the form snippet from `expiration Tab in the TwilioSms Wave
+<http://behattest.stagingsurvos.com/waves/dummy/TwilioSms#expiration>`_.
 
-.. figure::  /images/modules/ongoing_WebInterview_expiration.png
+.. figure::  /images/modules/ongoing_TwilioSms_expiration.png
 
-   Rendered Form WebInterview Wave Tab expiration
+   Rendered Form TwilioSms Wave Tab expiration
 
 .. raw:: html
 
@@ -474,11 +432,7 @@ This is the form snippet from `expiration Tab in the WebInterview Wave
             </tr>
                                     <tr class="row-even">
                 <th class="head">
-<<<<<<< HEAD
-                    Reminder Message                </th>
-=======
                     End Message                </th>
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                 <td>
                                             <b>Type</b>: text                            <br>
                         <b>Required</b>: No<br>
@@ -488,11 +442,7 @@ This is the form snippet from `expiration Tab in the WebInterview Wave
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
-<<<<<<< HEAD
-                    Warning Message                </th>
-=======
                     Reminder Message                </th>
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                 <td>
                                             <b>Type</b>: text                            <br>
                         <b>Required</b>: No<br>
@@ -500,150 +450,40 @@ This is the form snippet from `expiration Tab in the WebInterview Wave
                 <td>
                                     </td>
             </tr>
-<<<<<<< HEAD
-                    </tbody>
-    </table>
-    </div>
-
-
-WebInterview Messages
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This is the form snippet from `messages Tab in the WebInterview Wave
-<http://behattest.stagingsurvos.com/waves/dummy/WebInterview#messages>`_.
-
-.. figure::  /images/modules/ongoing_WebInterview_messages.png
-
-   Rendered Form WebInterview Wave Tab messages
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-        <colgroup>
-        <col width="15%">
-        <col width="25%">
-        <col width="60%">
-        </colgroup>
-        <thead valign="bottom">
-            <tr class="row-odd">
-                <th class="head">Field</th>
-                <th class="head">Info</th>
-                <th class="head">Description</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-                                    <tr class="row-odd">
-                <th class="head">
-                    welcomeMessage                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Message text                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    welcomeMessage                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    welcomeMessage Message                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    taskEndMessage                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Message text                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    taskEndMessage                </th>
-                <td>
-                                            <b>Type</b>: text                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    taskEndMessage Message                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    endMessage                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Message text                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    endMessage                </th>
-=======
                                     <tr class="row-even">
                 <th class="head">
                     Expiration Message                </th>
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                 <td>
                                             <b>Type</b>: text                            <br>
                         <b>Required</b>: No<br>
                                                                                     </td>
                 <td>
-<<<<<<< HEAD
-                    endMessage Message                </td>
-            </tr>
-                                    <tr class="row-odd">
-                <th class="head">
-                    expirationMessage                </th>
-                <td>
-                                            <b>Type</b>: boolean                            <br>
-                        <b>Required</b>: No<br>
-                                                                                    </td>
-                <td>
-                    Message text                </td>
-            </tr>
-                                    <tr class="row-even">
-                <th class="head">
-                    expirationMessage                </th>
-=======
                                     </td>
             </tr>
                                     <tr class="row-odd">
                 <th class="head">
                     Warning Message                </th>
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
                 <td>
                                             <b>Type</b>: text                            <br>
                         <b>Required</b>: No<br>
                                                                                     </td>
                 <td>
-<<<<<<< HEAD
-                    expirationMessage Message                </td>
-=======
                                     </td>
->>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
             </tr>
                     </tbody>
     </table>
     </div>
 
 
-WebInterview Extra
+TwilioSms Extra
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is the form snippet from `additional Tab in the WebInterview Wave
-<http://behattest.stagingsurvos.com/waves/dummy/WebInterview#additional>`_.
+This is the form snippet from `additional Tab in the TwilioSms Wave
+<http://behattest.stagingsurvos.com/waves/dummy/TwilioSms#additional>`_.
 
-.. figure::  /images/modules/ongoing_WebInterview_additional.png
+.. figure::  /images/modules/ongoing_TwilioSms_additional.png
 
-   Rendered Form WebInterview Wave Tab additional
+   Rendered Form TwilioSms Wave Tab additional
 
 .. raw:: html
 

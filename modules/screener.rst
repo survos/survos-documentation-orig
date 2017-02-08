@@ -2,7 +2,11 @@
 
 ..  _screener:
 
+<<<<<<< HEAD
 Recruit Survey Types
+=======
+Candidate Screener Survey Types
+>>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
 =======================================
 Information to screen applicants (potential study participants or field workers)
 
@@ -27,9 +31,17 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
+<<<<<<< HEAD
     
     * WebInterview, see :ref:`WebInterview_integration_type`
     * ObserveWeb, see :ref:`ObserveWeb_integration_type`
+=======
+* custom, see :ref:`custom_type`
+* geo_triggered, see :ref:`geo_triggered_type`
+* self_initiated, see :ref:`self_initiated_type`
+* random, see :ref:`random_type`
+* fixed, see :ref:`fixed_type`
+>>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
 
 
 Survey Participants
@@ -49,6 +61,14 @@ Code: screener
 .. toctree::
     :maxdepth: 2
 
+<<<<<<< HEAD
 
     integration-types/WebInterview
     integration-types/ObserveWeb
+=======
+    survey-types/custom
+    survey-types/geo_triggered
+    survey-types/self_initiated
+    survey-types/random
+    survey-types/fixed
+>>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d

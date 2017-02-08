@@ -2,7 +2,11 @@
 
 ..  _ongoing:
 
+<<<<<<< HEAD
 Study Survey Types
+=======
+Participant Survey Types
+>>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
 =======================================
 Personal data about registered study participants
 
@@ -35,12 +39,20 @@ Typical Questions
 
 Survey Types/Ways to Administer
 ----------------------------------
+<<<<<<< HEAD
     
     * WebInterview, see :ref:`WebInterview_integration_type`
     * Mapmob, see :ref:`Mapmob_integration_type`
     * ObserveWeb, see :ref:`ObserveWeb_integration_type`
     * Simulator, see :ref:`Simulator_integration_type`
     * TwilioSms, see :ref:`TwilioSms_integration_type`
+=======
+* custom, see :ref:`custom_type`
+* geo_triggered, see :ref:`geo_triggered_type`
+* self_initiated, see :ref:`self_initiated_type`
+* random, see :ref:`random_type`
+* fixed, see :ref:`fixed_type`
+>>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
 
 
 Survey Participants
@@ -60,9 +72,17 @@ Code: ongoing
 .. toctree::
     :maxdepth: 2
 
+<<<<<<< HEAD
 
     integration-types/WebInterview
     integration-types/Mapmob
     integration-types/ObserveWeb
     integration-types/Simulator
     integration-types/TwilioSms
+=======
+    survey-types/custom
+    survey-types/geo_triggered
+    survey-types/self_initiated
+    survey-types/random
+    survey-types/fixed
+>>>>>>> 33e064430e0b8f0afb7d2cef31f36fdd30446c0d
