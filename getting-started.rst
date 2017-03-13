@@ -5,22 +5,23 @@ Terminology (short and sweet)
 -----------------------------
 
 Survey/Survey Instrument: *what* you ask
-Protocol: *when* and *to whom* you deploy Survey Instruments
+Protocol: *time period* and *to whom* you deploy Survey Instruments
 Wave: *how* you deploy Survey Instruments
-Account: A participant (or other role) in a study
-
+Account/Member: A participant (or other role) in a study
+Task: The instnace of a wave associated with specific data.  
+Assignment: The participant's survey answers associated with a Task
 
 Terminology (detailed)
 ----------------------
 
-Project
+Project/Study
     The data, people and protocols of a research study.
 Survey
     A list of questions and answer options, tied to a how those questions will be deployed, such as via SMS or Turk or a Web Interview
-Protocol Type
+Module
+    A collection of protocols that operate on the same *source data*.  The primary modules are **Study** (collects data about study participants), **Audit** (collects objective, no personal, data about things, like images or places, **Annotations** (combination of Study and Audit, collects *personal data* about a *place*, basically a personal map annotation.
+Protocol
      A collection of survey types that collect data in a similar way.  Because the types of data the system can collect is so varied, selectively installing modules allows the system to be navigated more easily.  Many projects only use one or two `ref:modules.
-Survey Type
-    A generic term describing a component of the Survos Platform that collects data.  If that data is personal (e.g. about a study participants), this is sometimes called an "intervention".  If it's about a place, it can be called a "field survey".  It can also be called a "Turk Job" if the data is being collected through Amazon's Mechanical Turk".
 Wave
     Deployment of the survey questions.  It is the central object in the system, and is the configuration for who will answer the survey questions, when, how, how often, how much they'll be paid, etc.  There are many types of jobs, and each type will have its own specific configuration, which will be described later in the document.
 Protocol
